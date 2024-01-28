@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/logoWithoutText.png";
 import { createPortal } from "react-dom";
 import "./SideBar.css";
+import NavButton from "../navButtons/NavButton";
 
 function SideBar({ isMounted, unMount }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
@@ -51,21 +52,27 @@ function SideBar({ isMounted, unMount }) {
         </div>
       </div>
       <div className="grid place-content-center font-medium gap-y-4 p-4 text-base sm:text-lg">
-        <div class="cursor-pointer text-center duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded">
-          <Link to="/">HOME</Link>
-        </div>
-        <div class="cursor-pointer text-center duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded">
-          <Link to="/about">ABOUT</Link>
-        </div>
-        <div class="cursor-pointer text-center duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded">
-          <Link to="/events">EVENTS</Link>
-        </div>
-        <div class="cursor-pointer text-center duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded">
-          <Link to="/members">MEMBERS</Link>
-        </div>
-        <div class="cursor-pointer text-center duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded">
-          <Link to="/gallery">GALLERY</Link>
-        </div>
+        <NavButton title={"Home"} navigateTo={"/"} classname={"text-center"} />
+        <NavButton
+          title={"About"}
+          navigateTo={"/about"}
+          classname={"text-center"}
+        />
+        <NavButton
+          title={"Events"}
+          navigateTo={"/events"}
+          classname={"text-center"}
+        />
+        <NavButton
+          title={"Members"}
+          navigateTo={"/members"}
+          classname={"text-center"}
+        />
+        <NavButton
+          title={"Gallery"}
+          navigateTo={"/gallery"}
+          classname={"text-center"}
+        />
       </div>
     </div>,
     document.getElementById("overlay")

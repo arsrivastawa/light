@@ -6,7 +6,7 @@ import FooterLink from "../footerButtons/FooterLink";
 function Footer() {
   return (
     <>
-      <footer class="p-4 bg-[#f4f4ff] sm:p-6 dark:bg-gray-800">
+      <footer class="p-4 bg-[#FFA447] sm:p-6 dark:bg-gray-800">
         <div class="mx-auto max-w-screen-xl">
           <div class="flex flex-col md:justify-between">
             <div class="grid grid-rows-2 sm:grid-cols-2 sm:grid-rows-1 sm:p-6 px-6 gap-4 sm:gap-6">
@@ -33,8 +33,8 @@ function Footer() {
                 <div>
                   <div>
                     <FooterLink to={"/"} title={"home"} />
-                    <FooterLink to={"/about"} title={"About"} />
-                    <FooterLink to={"/events"} title={"Evets"} />
+                    <FooterLink to={"/about"} title={"About us"} />
+                    <FooterLink to={"/events"} title={"Events"} />
                   </div>
                 </div>
                 <div>
@@ -55,7 +55,7 @@ function Footer() {
             </div>
           </div>
           <div class="flex flex-col-reverse sm:flex-row px-6 sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span class="text-sm text-gray-700 sm:text-center dark:text-gray-400">
               © 2024{" "}
               <Link to="/" class="hover:underline">
                 LiGHT
@@ -65,25 +65,25 @@ function Footer() {
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a
                 href="#"
-                class="text-gray-500 hover:text-[#365486] dark:hover:text-white"
+                class="text-black hover:text-slate-500 dark:hover:text-white"
               >
                 <i class="text-xl bi bi-facebook"></i>
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-[#365486] dark:hover:text-white"
+                class="text-black hover:text-slate-500 dark:hover:text-white"
               >
                 <i class="text-xl bi bi-instagram"></i>
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-[#365486] dark:hover:text-white"
+                class="text-black hover:text-slate-500 dark:hover:text-white"
               >
                 <i class="text-xl bi bi-twitter-x"></i>
               </a>
               <a
                 href="#"
-                class="text-gray-500 hover:text-[#365486] dark:hover:text-white"
+                class="text-black hover:text-slate-500 dark:hover:text-white"
               >
                 <i class="text-xl bi bi-linkedin"></i>
               </a>

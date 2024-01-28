@@ -15,7 +15,7 @@ function Members() {
       <div className="grid place-items-center">
         <div className="members-heading-container">
           <Title content={"Our Team"} uppercase={true} />
-          <SubTitle content={"Founding Members"} />
+          <SubTitle align={"start"} content={"Founding Members"} />
         </div>
         <div className="MembersCard-container grid place-items-center">
           <MembersCard

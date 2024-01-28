@@ -3,6 +3,7 @@ import Logo from "../../assets/logoWithoutText.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import SideBar from "./SideBar";
+import NavButton from "../navButtons/NavButton";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,21 +27,31 @@ function Navbar() {
             </h1>
           </Link>
           <div class="lower-navbar bg-white font-roboto font-medium my-auto text-black sm:bg-white flex flex-row justify-start py-2">
-            <div class="mx-1 cursor-pointer  duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
-              <Link to="/">HOME</Link>
-            </div>
-            <div class="mx-1 cursor-pointer  duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
-              <Link to="/about">ABOUT</Link>
-            </div>
-            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
-              <Link to="/events">EVENTS</Link>
-            </div>
-            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
-              <Link to="/members">MEMBERS</Link>
-            </div>
-            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
-              <Link to="/gallery">GALLERY</Link>
-            </div>
+            <NavButton
+              title={"Home"}
+              navigateTo={"/"}
+              classname={"mx-1 text-lg"}
+            />
+            <NavButton
+              title={"About"}
+              navigateTo={"/about"}
+              classname={"mx-1 text-lg"}
+            />
+            <NavButton
+              title={"Events"}
+              navigateTo={"/events"}
+              classname={"mx-1 text-lg"}
+            />
+            <NavButton
+              title={"Members"}
+              navigateTo={"/members"}
+              classname={"mx-1 text-lg"}
+            />
+            <NavButton
+              title={"Gallery"}
+              navigateTo={"/gallery"}
+              classname={"mx-1 text-lg"}
+            />
           </div>
           {/* <div class="sidebar-container relative px-1 bg-white flex sm:hidden flex-row justify-between w-full items-stretch">
           <div class="sidebar-content -left-[110%] bg-white duration-300 fixed pt-24 h-screen w-1/2">

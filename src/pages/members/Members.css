@@ -30,6 +30,10 @@
   }
 }
 
+.MembersCard-container > :empty {
+  display: none !important;
+}
+
 @media (min-width: 1024px) {
   .MembersCard-container {
     grid-template-columns: repeat(3, minmax(0, 1fr));
