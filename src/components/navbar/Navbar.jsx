@@ -8,14 +8,14 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const div = document.createElement('div');
-    div.setAttribute('id', 'overlay');
+    const div = document.createElement("div");
+    div.setAttribute("id", "overlay");
     document.body.appendChild(div);
     return () => div.remove();
   }, []);
   return (
     <>
-      <div className=" w-full flex justify-center">
+      <div className=" w-full border-b border-b-slate-300 flex justify-center">
         <div class="nav-container items-stretch px-4 flex justify-between w-[90%] sm:w-[80%]">
           <Link to="/" className=" flex flex-row items-center">
             <div class="logo-container py-2 h-full w-[70px] bg-black grid place-items-center rounded-b-2xl">
@@ -25,17 +25,20 @@ function Navbar() {
               LiGHT Sindri
             </h1>
           </Link>
-          <div class="lower-navbar bg-white font-roboto font-medium text-black sm:bg-white flex flex-row justify-start py-2">
-            <div class="mx-1 cursor-pointer  duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
+          <div class="lower-navbar bg-white font-roboto font-medium my-auto text-black sm:bg-white flex flex-row justify-start py-2">
+            <div class="mx-1 cursor-pointer  duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
+              <Link to="/">HOME</Link>
+            </div>
+            <div class="mx-1 cursor-pointer  duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
               <Link to="/about">ABOUT</Link>
             </div>
-            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
+            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
               <Link to="/events">EVENTS</Link>
             </div>
-            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
+            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
               <Link to="/members">MEMBERS</Link>
             </div>
-            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
+            <div class="mx-1 cursor-pointer duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#f4f4ff] rounded text-lg">
               <Link to="/gallery">GALLERY</Link>
             </div>
           </div>

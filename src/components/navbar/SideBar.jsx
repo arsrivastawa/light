@@ -35,7 +35,7 @@ function SideBar({ isMounted, unMount }) {
         isTransitioning && isMounted ? "translate-x-0" : "-translate-x-full"
       } w-full h-full bg-white duration-300`}
     >
-      <div className="sidebar-navbar w-full flex flex-row justify-center border-b border-b-slate-300 pb-2">
+      <div className="sidebar-navbar w-full flex flex-row justify-center border-b border-b-slate-300">
         <div className="px-4 w-[80%] flex justify-between">
           <Link to={"/"}>
             <div className="logo-container py-2 h-full w-[70px] bg-black grid place-items-center rounded-b-2xl">

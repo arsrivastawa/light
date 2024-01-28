@@ -3,10 +3,10 @@ import React from "react";
 function Title({ content, color, uppercase, capitalize, align }) {
   return (
     <h1
-      className={`${color ? `text-${color}` : ``} ${
-        uppercase ? "uppercase" : ""
-      } ${capitalize ? "capitalize" : ""} ${
-        align ? `text-${align}` : `text-center`
+      className={`${color ? `${"text-[" + color + "]"}` : ``}${
+        uppercase ? " uppercase" : ""
+      }${capitalize ? " capitalize" : ""}${
+        align ? ` text-${align}` : ` text-center`
       } font-roboto my-6 font-semibold text-4xl sm:text-6xl`}
     >
       {content}

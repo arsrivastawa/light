@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MembersCard from "../../components/membersCard/MembersCard";
 import Container from "../../components/container/Container";
 import "./Members.css";
@@ -6,6 +6,10 @@ import Img from "../../assets/memberImgs/aditya.jpg";
 import Title, { SubTitle } from "../../components/titles/Title";
 
 function Members() {
+  useEffect(() => {
+    document.title = "Our Team";
+  }, []);
+
   return (
     <Container>
       <div className="grid place-items-center">
@@ -18,6 +22,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -26,6 +32,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -34,6 +42,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -42,6 +52,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -50,6 +62,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -58,6 +72,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -66,6 +82,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -74,6 +92,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
@@ -82,6 +102,8 @@ function Members() {
             ImgUrl={Img}
             name={"Aditya Ranjan"}
             domainOrBranch={"IT 2k22"}
+            email={"#"}
+            instaUrl={"#"}
             linkedinUrl={
               "https://www.linkedin.com/in/awww.linkedin.com/in/aditya-srivastawa"
             }
