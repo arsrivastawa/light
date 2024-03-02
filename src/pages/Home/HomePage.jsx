@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import Section from "../../components/container/Container";
+import Container from "../../components/container/Container";
 import HeroCarousel from "../../components/carousel/HeroCarousel";
 import HomeAbout from "../../components/about/HomeAbout";
-import HomeTeam from "../../components/domains/HomeTeam";
+import Domains from "../../components/domains/Domains";
+import HomeEvent from "../../components/homeEvents/HomeEvent";
 
 function HomePage() {
   useEffect(() => {
@@ -10,11 +11,12 @@ function HomePage() {
   }, []);
 
   return (
-    <Section>
+    <Container>
       <HeroCarousel />
       <HomeAbout />
-      <HomeTeam />
-    </Section>
+      <HomeEvent />
+      <Domains />
+    </Container>
   );
 }
 

@@ -1,0 +1,5 @@
+@media (min-width: 640px) {
+  .home-team-carousel-container {
+    display: none;
+  }
+}

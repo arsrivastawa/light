@@ -1,0 +1,25 @@
+.blurred-wrapper::before {
+  position: absolute;
+  content: "";
+  width: 400px;
+  aspect-ratio: 1;
+  background: linear-gradient(-135deg, #ffae5dd0, rgb(62, 61, 1));
+  bottom: 30%;
+  left: 5%;
+  border-radius: 9999px;
+  z-index: -100;
+  animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.about-hero {
+  backdrop-filter: blur(50px) !important;
+}

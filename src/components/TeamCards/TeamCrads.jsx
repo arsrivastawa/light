@@ -1,15 +1,16 @@
 import React from "react";
-import "./MembersCard.css";
+import "./TeamCards.css";
 import { motion } from "framer-motion";
 import { cardVariants } from "../variants/variants";
 import { useInView } from "react-intersection-observer";
-function MembersCard({
+function TeamCards({
   name,
   domainOrBranch,
   linkedinUrl,
   instaUrl,
   email,
   ImgUrl,
+  animate,
 }) {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -19,8 +20,8 @@ function MembersCard({
     <motion.div
       ref={ref}
       variants={cardVariants}
-      initial="offscreen"
-      animate={!inView ? "offscreen" : "onscreen"}
+      initial={animate ? "offscreen" : ""}
+      animate={animate ? (!inView ? "offscreen" : "onscreen") : ""}
       className="rounded-3xl h-fit w-fit m-4 border overflow-hidden hover:border-slate-300 duration-150 hover:shadow-md"
     >
       <div className="blur-wrapper h-fit relative w-fit duration-150 hover:after:animate-zigZag1 hover:before:animate-zigZag2">
@@ -65,4 +66,4 @@ function MembersCard({
   );
 }
 
-export default MembersCard;
+export default TeamCards;
