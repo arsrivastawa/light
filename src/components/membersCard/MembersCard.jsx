@@ -42,7 +42,7 @@ function MembersCard({
             <div className="socials-container text-2xl">
               <div className="socials">
                 {email ? (
-                  <a href={email} target="_blank">
+                  <a href={`mailto:${email}`}>
                     <i class="bi bi-envelope-at-fill px-2 hover:text-[#ffa447d0] duration-150"></i>
                   </a>
                 ) : null}
