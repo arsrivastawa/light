@@ -24,7 +24,7 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  "../../../public/assets/TeamProfile/Founding-Members/" +
+                  "/assets/TeamProfile/Founding-Members/" +
                   item.ImgPath +
                   ".jpg"
                 }
@@ -51,9 +51,7 @@ function Members() {
               return (
                 <MembersCard
                   ImgUrl={
-                    "../../../public/assets/TeamProfile/Heads-CCs/" +
-                    item.ImgPath +
-                    ".jpg"
+                    "/assets/TeamProfile/Heads-CCs/" + item.ImgPath + ".jpg"
                   }
                   domainOrBranch={item.position}
                   email={item.email}
@@ -73,11 +71,7 @@ function Members() {
           {TeamData.slice(19).map((item) => {
             return (
               <MembersCard
-                ImgUrl={
-                  "../../../public/assets/TeamProfile/CTMs/" +
-                  item.ImgPath +
-                  ".jpg"
-                }
+                ImgUrl={"/assets/TeamProfile/CTMs/" + item.ImgPath + ".jpg"}
                 domainOrBranch={item.position}
                 email={item.email}
                 instaUrl={item.insta}
