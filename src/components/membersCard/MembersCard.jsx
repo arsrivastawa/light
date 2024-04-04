@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MembersCard.css";
 import { motion } from "framer-motion";
 import { cardVariants } from "../variants/variants";
@@ -11,6 +11,14 @@ function MembersCard({
   email,
   ImgUrl,
 }) {
+  console.log(ImgUrl.split("/").pop().split(".")[0] + "-min.jpg");
+  let urlArray = ImgUrl.split("/");
+  let name1 = urlArray.pop();
+  urlArray.push(urlArray[urlArray.length - 1] + "-min");
+  urlArray.push(name1.split(".")[0] + "-min.jpg");
+  let loaderImageUrl = urlArray.join("/");
+  console.log(loaderImageUrl);
+  const [loaded, setLoaded] = useState(false);
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -28,8 +36,11 @@ function MembersCard({
           <div className="card-elements flex flex-col gap-3 lg:gap-4 items-center px-5">
             <div className="img-container">
               <img
-                className="object-cover rounded-full aspect-square"
+                className={`w-[232px] ${
+                  !loaded ? "blur-md" : ""
+                } object-cover rounded-full aspect-square`}
                 src={ImgUrl}
+                onLoad={() => setLoaded(true)}
                 alt="Member_Img"
               />
             </div>
