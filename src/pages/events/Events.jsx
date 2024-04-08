@@ -45,7 +45,7 @@ function Events() {
                 <div class="grid h-full grid-cols-2 gap-4 mt-8">
                   <img
                     class="h-full object-cover rounded-lg"
-                    src={"/src/assets/carouseLImg/CaImg1.jpg"}
+                    src={Img1}
                     alt="office content 1"
                   />
                   <img
