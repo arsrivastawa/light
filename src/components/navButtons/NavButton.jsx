@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavButton({ title, classname, navigateTo }) {
   return (
     <div
-      class={`font-roboto cursor-pointer uppercase duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#ffa4476b] rounded text-lg${
+      class={`font-poppins cursor-pointer uppercase duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-[#ffa4476b] rounded text-lg${
         classname ? " " + classname : ""
       }`}
     >

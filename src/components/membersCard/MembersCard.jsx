@@ -11,12 +11,12 @@ function MembersCard({
   email,
   ImgUrl,
 }) {
+  //creating URL for blurred loading Image
   let urlArray = ImgUrl.split("/");
   let name1 = urlArray.pop();
   urlArray.push(urlArray[urlArray.length - 1] + "-min");
   urlArray.push(name1.split(".")[0] + "-min.jpg");
   let loaderImageUrl = urlArray.join("/");
-  console.log(loaderImageUrl);
   const [loaded, setLoaded] = useState(false);
   const [ref, inView] = useInView({
     triggerOnce: true,

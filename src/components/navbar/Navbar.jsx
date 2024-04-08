@@ -26,7 +26,7 @@ function Navbar() {
               LiGHT Sindri
             </h1>
           </Link>
-          <div class="lower-navbar bg-white font-roboto font-medium my-auto text-black sm:bg-white flex flex-row justify-start py-2">
+          <div class="lower-navbar bg-white font-poppins font-medium my-auto text-black sm:bg-white flex flex-row justify-start py-2">
             <NavButton
               title={"Home"}
               navigateTo={"/"}
