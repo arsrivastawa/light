@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../../components/titles/Title";
 import Container from "../../components/container/Container";
+import Img2 from "../../assets/carouseLImg/CaImg2.jpg";
 
 function Gallery() {
   return (
@@ -10,32 +11,16 @@ function Gallery() {
           <Title content={"Gallery"} />
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-              <img
-                src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
-                alt="Image 1"
-                class="w-full h-64 object-cover"
-              />
+              <img src={Img2} alt="Image 1" class="w-full h-64 object-cover" />
             </div>
             <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-              <img
-                src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
-                alt="Image 2"
-                class="w-full h-64 object-cover"
-              />
+              <img src={Img2} alt="Image 2" class="w-full h-64 object-cover" />
             </div>
             <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-              <img
-                src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
-                alt="Image 3"
-                class="w-full h-64 object-cover"
-              />
+              <img src={Img2} alt="Image 3" class="w-full h-64 object-cover" />
             </div>
             <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 ease-in-out">
-              <img
-                src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
-                alt="Image 4"
-                class="w-full h-64 object-cover"
-              />
+              <img src={Img2} alt="Image 4" class="w-full h-64 object-cover" />
             </div>
           </div>
         </div>
@@ -46,21 +31,21 @@ function Gallery() {
                 <img
                   alt="gallery"
                   class="w-full rounded-xl object-cover h-full object-center block"
-                  src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
+                  src={Img2}
                 />
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   class="w-full rounded-xl object-cover h-full object-center block"
-                  src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
+                  src={Img2}
                 />
               </div>
               <div class="md:p-2 p-1 w-full">
                 <img
                   alt="gallery"
                   class="w-full rounded-xl h-full object-cover object-center block"
-                  src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
+                  src={Img2}
                 />
               </div>
             </div>
@@ -69,21 +54,21 @@ function Gallery() {
                 <img
                   alt="gallery"
                   class="w-full rounded-xl h-full object-cover object-center block"
-                  src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
+                  src={Img2}
                 />
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   class="w-full rounded-xl object-cover h-full object-center block"
-                  src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
+                  src={Img2}
                 />
               </div>
               <div class="md:p-2 p-1 w-1/2">
                 <img
                   alt="gallery"
                   class="w-full rounded-xl object-cover h-full object-center block"
-                  src="https://m.media-amazon.com/images/I/71CjIlXj+kL._AC_UF1000,1000_QL80_.jpg"
+                  src={Img2}
                 />
               </div>
             </div>

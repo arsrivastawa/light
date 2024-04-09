@@ -9,6 +9,7 @@ import { TeamData } from "../../../public/assets/TeamData";
 function Members() {
   useEffect(() => {
     document.title = "Our Team";
+    window.scrollTo(0, 0);
   }, []);
 
   return (

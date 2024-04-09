@@ -11,19 +11,19 @@ function SideBar({ isMounted, unMount }) {
     let timeoutId;
     if (isMounted && !isTransitioning) {
       setIsTransitioning(true);
-      document.documentElement.classList.add("scroll-lock");
+      document.body.classList.add("scroll-lock");
     } else if (!isMounted && isTransitioning) {
       timeoutId = setTimeout(() => {
         setIsTransitioning(false);
-        document.documentElement.classList.remove("scroll-lock");
+        document.body.classList.remove("scroll-lock");
       }, 300);
     }
     return () => {
       if (
-        document.documentElement.classList.contains("scroll-lock") &&
+        document.body.classList.contains("scroll-lock") &&
         isTransitioning
       ) {
-        document.documentElement.classList.remove("scroll-lock");
+        document.body.classList.remove("scroll-lock");
       }
     };
   }, [isMounted, isTransitioning]);
