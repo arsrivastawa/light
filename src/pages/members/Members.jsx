@@ -24,9 +24,9 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  "../../../public/assets/TeamProfile/Founding-Members/" +
-                  item.ImgPath +
-                  ".jpg"
+                  // "../../../public/assets/TeamProfile/Founding-Members/" +
+                  item.ImgPath
+                  // + ".jpg"
                 }
                 domainOrBranch={
                   item.branch + " - " + String(item.batch).replace("0", "k")
@@ -46,14 +46,14 @@ function Members() {
         </div>
         <div className="MembersCard-container grid place-items-center my-4">
           {TeamData.slice(8, 19)
-            .sort((a, b) => a.position.localeCompare(b.position))
+            // .sort((a, b) => a.position.localeCompare(b.position))
             .map((item) => {
               return (
                 <MembersCard
                   ImgUrl={
-                    "../../../public/assets/TeamProfile/Heads-CCs/" +
-                    item.ImgPath +
-                    ".jpg"
+                    // "../../../public/assets/TeamProfile/Heads-CCs/" +
+                    item.ImgPath 
+                    // + ".jpg"
                   }
                   domainOrBranch={item.position}
                   email={item.email}
@@ -74,9 +74,9 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  "../../../public/assets/TeamProfile/CTMs/" +
-                  item.ImgPath +
-                  ".jpg"
+                  // "../../../public/assets/TeamProfile/CTMs/" +
+                  item.ImgPath 
+                  // + ".jpg"
                 }
                 domainOrBranch={item.position}
                 email={item.email}
