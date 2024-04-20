@@ -7,6 +7,7 @@ import Img from "../../assets/carouseLImg/CaImg3.jpg";
 function About() {
   useEffect(() => {
     document.title = "About LiGHT Sindri";
+    window.scrollTo(0, 0);
   });
   return (
     <Container>

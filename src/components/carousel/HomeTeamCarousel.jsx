@@ -15,7 +15,7 @@ function HomeTeamCarousel() {
     <div className="home-team-carousel-container w-80">
       <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={20}
         loop={true}
         autoplay={{
           delay: 1000,
