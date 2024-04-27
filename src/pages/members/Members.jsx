@@ -4,7 +4,7 @@ import Container from "../../components/container/Container";
 import "./Members.css";
 import Img from "../../assets/memberImgs/aditya.jpg";
 import Title, { SubTitle } from "../../components/titles/Title";
-import { TeamData } from "../../../public/assets/TeamData";
+import { TeamData } from "../../../public/assets/TeamData.js";
 
 function Members() {
   useEffect(() => {
