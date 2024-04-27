@@ -1,14 +1,11 @@
 .blurred-wrapper::before {
   position: absolute;
   content: "";
-  width: 400px;
   aspect-ratio: 1;
   background: linear-gradient(-135deg, #ffae5dd0, rgb(62, 61, 1));
-  bottom: 30%;
-  left: 5%;
   border-radius: 9999px;
   z-index: -100;
-  animation: rotate 10s infinite linear;
+  animation: rotate 8s infinite linear;
 }
 
 @keyframes rotate {
@@ -21,5 +18,5 @@
 }
 
 .about-hero {
-  backdrop-filter: blur(50px) !important;
+  backdrop-filter: blur(30px) !important;
 }

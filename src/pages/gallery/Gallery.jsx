@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../../components/titles/Title";
 import Container from "../../components/container/Container";
+import Img2 from "../../assets/carouseLImg/CaImg2.jpg";
 
 function Gallery() {
   return (
@@ -335,6 +336,7 @@ function Gallery() {
               />
             </div>
             <div class="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition duration-300 ease-in-out">
+              <img src={Img2} alt="Image 2" class="w-full h-64 object-cover" />
               <img
                 src="../../../assets/Gallery/anubhuti22.jpg"
                 alt="Image 2"

@@ -9,13 +9,14 @@ export const cardVariants = {
     scale: 1,
     opacity: 1,
     transition: {
-      duration: 0.3,
+      duration: 0.8,
+      ease: "linear",
     },
   },
 };
 export const aboutVariants = {
   offscreen: {
-    x: 100,
+    x: 200,
     opacity: 0,
     scale: 0.9,
   },
@@ -24,13 +25,13 @@ export const aboutVariants = {
     scale: 1,
     opacity: 1,
     transition: {
-      duration: 0.3,
+      duration: 0.8,
     },
   },
 };
 export const eventVariants = {
   offscreen: {
-    x: -100,
+    x: -200,
     opacity: 0,
     scale: 0.9,
   },
@@ -39,7 +40,7 @@ export const eventVariants = {
     scale: 1,
     opacity: 1,
     transition: {
-      duration: 0.3,
+      duration: 0.8,
     },
   },
 };

@@ -9,7 +9,7 @@ import { aboutVariants, cardVariants } from "../variants/variants";
 function HomeAbout() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.7,
+    threshold: 0.35,
   });
   return (
     <div className="w-full overflow-hidden">

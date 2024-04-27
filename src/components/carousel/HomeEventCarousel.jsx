@@ -1,10 +1,78 @@
 import React from "react";
-import Title from "../titles/Title";
-import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { eventVariants } from "../variants/variants";
-import HomeEventCarousel from "../carousel/HomeEventCarousel";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+// import "./HomeEventCarousel.css";
+
+import { Navigation, Pagination } from "swiper/modules";
+import TeamCards from "../TeamCards/TeamCrads";
+import HomeEventCard from "../EventsCard/HomeEventCard";
+
+function HomeEventCarousel() {
+  return (
+    <div className="w-full relative">
+      <div className="cursor-pointer font-medium carousel-previous-container rounded-full absolute -left-6 text-black text-center bg-[#ffb76e] top-1/2 -translate-y-1/2 font-poppins leading-10 text-2xl shadow-md w-10 h-10 z-10">
+        &lt;
+      </div>
+      <div className="cursor-pointer font-medium carousel-next-container rounded-full absolute -right-6 text-black text-center bg-[#ffb76e] top-1/2 -translate-y-1/2 font-poppins leading-10 text-2xl shadow-md w-10 h-10 z-10">
+        &gt;
+      </div>
+      <div className="w-full">
+        <Swiper
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1024: {
+              slidesPerView: 3,
+            },
+            1280: {
+              slidesPerView: 4,
+            },
+          }}
+          spaceBetween={10}
+          loop={true}
+          pagination={{
+            dynamicBullets: true,
+          }}
+          navigation={{
+            nextEl: ".carousel-next-container",
+            prevEl: ".carousel-previous-container",
+          }}
+          modules={[Navigation, Pagination]}
+          className="mySwiper pb-12"
+        >
+          <SwiperSlide className="flex justify-center">
+            <HomeEventCard event={event} />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center">
+            <HomeEventCard event={event} />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center">
+            <HomeEventCard event={event} />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center">
+            <HomeEventCard event={event} />
+          </SwiperSlide>
+          <SwiperSlide className="flex justify-center">
+            <HomeEventCard event={event} />
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </div>
+  );
+}
+
+export default HomeEventCarousel;
 const event = {
   title: "Old Age Home Visit",
   image:
@@ -14,28 +82,3 @@ const event = {
   date: "Sunday, January 01, 2023 - 06:00 PM",
   price: "99.99",
 };
-
-function HomeEvent() {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.3,
-  });
-  return (
-    <div className="w-full">
-      <motion.div
-        ref={ref}
-        variants={eventVariants}
-        initial="offscreen"
-        animate={inView ? "onscreen" : "offscreen"}
-        className="w-full p-5 sm:p-10 flex flex-col justify-center items-center"
-      >
-        <Title content={"our Initiatives"} capitalize={true} align={"center"} />
-        <div className="w-full">
-          <HomeEventCarousel />
-        </div>
-      </motion.div>
-    </div>
-  );
-}
-
-export default HomeEvent;

@@ -26,7 +26,7 @@ function Navbar() {
               LiGHT Sindri
             </h1>
           </Link>
-          <div class="lower-navbar bg-white font-roboto font-medium my-auto text-black sm:bg-white flex flex-row justify-start py-2">
+          <div class="lower-navbar bg-white font-poppins font-medium my-auto text-black sm:bg-white flex flex-row justify-start py-2">
             <NavButton
               title={"Home"}
               navigateTo={"/"}
@@ -53,29 +53,6 @@ function Navbar() {
               classname={"mx-1 text-lg"}
             />
           </div>
-          {/* <div class="sidebar-container relative px-1 bg-white flex sm:hidden flex-row justify-between w-full items-stretch">
-          <div class="sidebar-content -left-[110%] bg-white duration-300 fixed pt-24 h-screen w-1/2">
-            <div class="mx-1 cursor-pointer text-black duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
-              <a href="./index.html">Home</a>
-            </div>
-            <div class="mx-1 cursor-pointer text-black duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
-              About Us
-            </div>
-            <div class="mx-1 cursor-pointer text-black duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
-              <a href="./events.html">Events</a>
-            </div>
-            <div class="mx-1 cursor-pointer text-black duration-150 border-0 py-1 px-4 focus:outline-none hover:bg-slate-200 rounded text-lg">
-              <a href="./members.html">Members</a>
-            </div>
-          </div>
-          <div class="logo-container w-[80px] bg-black grid place-items-center py-3 rounded-b-2xl">
-          <img
-          src="./assets/IMG-20230606-WA0006.png"
-          class="w-[60px]"
-          alt="logo"
-          />
-          </div>
-        </div> */}
           <div
             onClick={() => setIsOpen(true)}
             class="ham-burger p-3 text-2xl sm:text-3xl border-none duration-150"
