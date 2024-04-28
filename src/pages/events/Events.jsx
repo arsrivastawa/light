@@ -3,7 +3,7 @@ import Container from "../../components/container/Container";
 import Title, { SubTitle } from "../../components/titles/Title";
 import Img1 from "../../assets/carouseLImg/CaImg1.jpg";
 import Img2 from "../../assets/carouseLImg/CaImg2.jpg";
-import EventCard from "../../components/EventsCard/EventCard";
+import EventCard from "../../components/EventsCards/EventCard";
 
 function Events() {
   useEffect(() => {

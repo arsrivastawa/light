@@ -478,7 +478,7 @@ export const TeamData = [
       "https://drive.google.com/open?id=1K80FUpO97uLcKY2LZ5D7MJqwbggpzAvE",
   },
   {
-    name: "Sweety kumari ",
+    name: "Sweety kumari",
     ImgPath:
       "https://drive.google.com/thumbnail?id=1R0VXVPzC8XNLKFfuoNO2_xu_0eEjMxxC",
     team: "Design Team",
@@ -498,7 +498,7 @@ export const TeamData = [
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2022,
-    position: "Sponsorship Team Head",
+    position: "Core Team Member",
     email: "yuvrajkumar976@gmail.com",
     linkedIn:
       "https://www.linkedin.com/in/yuvraj-kumar-59838a221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
