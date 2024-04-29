@@ -31,12 +31,12 @@ export const aboutVariants = {
 };
 export const eventVariants = {
   offscreen: {
-    x: -200,
+    y: 100,
     opacity: 0,
     scale: 0.9,
   },
   onscreen: {
-    x: 0,
+    y: 0,
     scale: 1,
     opacity: 1,
     transition: {
