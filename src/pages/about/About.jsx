@@ -26,22 +26,20 @@ function About() {
                 <SubTitle marginY={"5"} content={"About Us"} align={"start"} />
               </div>
               <p className="py-5 font-roboto w-full text-sm sm:text-base sm:leading-5">
-                LiGHT Sindri is an NGO committed to community upliftment and
-                sustainable development. They provide vital services, education,
-                and opportunities to disadvantaged communities, aiming to create
-                positive change and enhance quality of life for all individuals,
-                regardless of their socio-economic status. Through diverse
-                programs and initiatives, LiGHT Sindri endeavors to empower
-                communities, encourage innovation, and shape a promising future
-                for generations to come. LiGHT Sindri is an NGO committed to
-                community upliftment and sustainable development. They provide
-                vital services, education, and opportunities to disadvantaged
-                communities, aiming to create positive change and enhance
-                quality of life for all individuals, regardless of their
-                socio-economic status. Through diverse programs and initiatives,
-                LiGHT Sindri endeavors to empower communities, encourage
-                innovation, and shape a promising future for generations to
-                come.
+                Since its founding in May 2021 with just nine members, LiGHT
+                Sindri has quickly grown to become a powerful organization with
+                31 active members who are dedicated to upholding their purpose
+                of uplifting underprivileged communities. Their effective
+                completion of five events throughout their 2022–2023 reign is
+                evidence of their commitment to bringing about constructive
+                change. LiGHT Sindri is now prepared to start a new chapter of
+                influence and expansion as they look forward to the future with
+                great anticipation. They want to further establish themselves as
+                an independent hub committed to promoting a better, more
+                inclusive society, and they have big aspirations for the Sindri
+                region and beyond. Their story serves as a tribute to the
+                strength of group effort and steadfast dedication to changing
+                the world.
               </p>
             </div>
             <div className="w-full desktop:w-[40%] grid place-items-center">

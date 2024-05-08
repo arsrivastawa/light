@@ -24,9 +24,10 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  // "../../../public/assets/TeamProfile/Founding-Members/" +
-                  item.ImgPath
-                  // + ".jpg"
+                  "../../../public/assets/TeamProfile/Founding-Members/" +
+                  item.ImgPath +
+                  ".jpg"
+                  // item.ImgPath
                 }
                 domainOrBranch={
                   item.branch + " - " + String(item.batch).replace("0", "k")
@@ -51,9 +52,9 @@ function Members() {
               return (
                 <MembersCard
                   ImgUrl={
-                    // "../../../public/assets/TeamProfile/Heads-CCs/" +
-                    item.ImgPath 
-                    // + ".jpg"
+                    "../../../public/assets/TeamProfile/Heads-CCs/" +
+                    item.ImgPath +
+                    ".jpg"
                   }
                   domainOrBranch={item.position}
                   email={item.email}
@@ -74,9 +75,9 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  // "../../../public/assets/TeamProfile/CTMs/" +
-                  item.ImgPath 
-                  // + ".jpg"
+                  "../../../public/assets/TeamProfile/CTMs/" +
+                  item.ImgPath +
+                  ".jpg"
                 }
                 domainOrBranch={item.position}
                 email={item.email}

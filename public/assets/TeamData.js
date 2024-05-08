@@ -1,8 +1,7 @@
 export const TeamData = [
   {
     name: "Abhijeet Kumar Gupta",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1yjNRWl7S2zlKPBtD23umV3wwq2cqICbh",
+    ImgPath: "abhijeet-gupta",
     team: "Web D Team",
     branch: "CSE",
     batch: 2020,
@@ -14,9 +13,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1JSRLPI7wp6iGW1qfppKsPT_pbTWVTLsU",
   },
   {
-    name: "ADARSH KUMAR ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1eD5bTZCSVfd5eqlbkGYCrzgMrkO3lNVt",
+    name: "Adarsh Kumar",
+    ImgPath: "adarsh-kumar",
     team: "Design Team",
     branch: "Metallurgy",
     batch: 2020,
@@ -30,9 +28,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1_6pQeKpESCrJDPzk75RGx_UNHUMBLFZ-",
   },
   {
-    name: "BITTU KUMAR",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1UL7x2imtTIq-LAz1E97l88So3emYhjVq",
+    name: "Bittu Kumar",
+    ImgPath: "bittu-kumar",
     branch: "CSE",
     batch: 2020,
     position: "Centre Coordinator",
@@ -44,8 +41,7 @@ export const TeamData = [
   },
   {
     name: "Dhruv Kumar",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1yWCZeKaBOUXyOJgNf2SUaQCYeWvxnU3K",
+    ImgPath: "dhruv-kumar",
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2020,
@@ -57,9 +53,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=14LqLzKKeDAzJ5FkcFHNx7bzEB18aHI-x",
   },
   {
-    name: "Kumar Abhishek ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=14Nod99FCm3IIbhzxdzbLoLkBYT4_YTXv",
+    name: "Kumar Abhishek",
+    ImgPath: "kumar-abhishek",
     team: "Web D Team",
     branch: "CSE",
     batch: 2020,
@@ -73,8 +68,7 @@ export const TeamData = [
   },
   {
     name: "Nishant Kumar Singh",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1AtqYpDvIjA0texx4jOnsL3qiPya1S_Nf",
+    ImgPath: "nishant-kumar-singh",
     team: "Content Team",
     branch: "IT",
     batch: 2020,
@@ -85,9 +79,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1lgzvT6YzOsx3WS2vAuGdiKzii3LMsU4w",
   },
   {
-    name: "RAJ SHEKHAR SINGH",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1s1v93Iok0wWsT0X_6HnDFosEEka7bXOl",
+    name: "Raj Shekhar Singh",
+    ImgPath: "raj-shekhar-singh",
     team: "SSD Team",
     branch: "Mechanical",
     batch: 2020,
@@ -101,9 +94,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1GaW_vdOGw0tGDrFGbmeCa3SVC7ibItnA",
   },
   {
-    name: "Sudhanshu Kumar Pandey ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1quevgR_xgcDbV6jMBAJavq8GEI-SbClj",
+    name: "Sudhanshu Kumar Pandey",
+    ImgPath: "sudhanshu-pandey",
     team: "Design Team",
     branch: "CSE",
     batch: 2020,
@@ -116,8 +108,7 @@ export const TeamData = [
   },
   {
     name: "Abhijeet kumar",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1B2j0Upmo3Dw8hqsQDRQ5I19Hve0p-8YB",
+    ImgPath: "abhijeet-kumar",
     branch: "Mechanical",
     batch: 2021,
     position: "Sponsorship Team Head",
@@ -128,8 +119,7 @@ export const TeamData = [
   },
   {
     name: "Abhishek Kumar Mehta",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1z2S0CDQAD2YTNb35Vp2luMV2Rte7WnDD",
+    ImgPath: "abhishek-mehta",
     team: "Design Team",
     branch: "Mechanical",
     batch: 2021,
@@ -142,9 +132,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1Sj4pSEjG4KqY4v8VKcMukCXHdOh_I-bs",
   },
   {
-    name: "Aman Kumar Choudhary ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=10wnJ6CSCwVH4EcOEqBANZ1Kpvff4pZB-",
+    name: "Aman Kumar Choudhary",
+    ImgPath: "aman-kumar-choudhary",
     team: "Sponsorship Team",
     branch: "Chemical",
     batch: 2021,
@@ -156,8 +145,7 @@ export const TeamData = [
   },
   {
     name: "Aman Ranjan Mishra",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1xy8PjI9C_-k8MvPMCZY7rwxhIiguW5qI",
+    ImgPath: "aman-ranjan-mishra",
     team: "Sponsorship Team",
     branch: "Chemical",
     batch: 2021,
@@ -171,8 +159,7 @@ export const TeamData = [
   },
   {
     name: "Kashaf Fateema",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1KWfwhbTSAeT2UX97xRQ9ftk7EXnSvHXq",
+    ImgPath: "kashaf-fateema",
     team: "Content Team",
     branch: "Chemical",
     batch: 2021,
@@ -184,9 +171,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1t_SylXC7XH0NEy032wF2Shwflt63PaPK",
   },
   {
-    name: "Ravi Kumar ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1WclrYrfYFJOdcyJ8sT0bU3fG2DruTMl3",
+    name: "Ravi Kumar",
+    ImgPath: "ravi-kumar",
     team: "Content Team",
     branch: "Chemical",
     batch: 2021,
@@ -199,9 +185,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1aTWNPNHtC_gi2XnSjx4NbJxzH55h0LiZ",
   },
   {
-    name: "SATYAM KUMAR GUPTA",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=12vhiIblbovulWwka4Fl3hNAUwjQoZ08K",
+    name: "Satyam Harsh Gupta",
+    ImgPath: "satyam-harsh-gupta",
     team: "Design Team",
     branch: "Mechanical",
     batch: 2021,
@@ -214,8 +199,7 @@ export const TeamData = [
   },
   {
     name: "Shruti Roy",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=10VqZbpiAyW76_5QlnFJrCHclkWSKvjlF",
+    ImgPath: "shruti-roy",
     branch: "Civil",
     batch: 2021,
     position: "Centre Coordinator",
@@ -227,9 +211,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1iIG0azpmouLV-r63sXhaR-LSzBNIWQ5j",
   },
   {
-    name: "Suman Toppo ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1ElWRBg3LQTd3mD1bZw63vJO5WzHwRMKA",
+    name: "Suman Toppo",
+    ImgPath: "suman-toppo",
     team: "Sponsorship Team",
     branch: "Civil",
     batch: 2021,
@@ -242,9 +225,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1vipLe43DeywqvkWayCa3dMM1WT6ViPjl",
   },
   {
-    name: "Vikram Kumar ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1J1DT2Q-NQWivJlAbM2ru5MWq522UvslF",
+    name: "Vikram Kumar",
+    ImgPath: "vikram-kumar",
     team: "Design Team",
     branch: "Mechanical",
     batch: 2021,
@@ -256,9 +238,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1WpgByLz3dfBeBmi2gbFDec_4S3qVDrtf",
   },
   {
-    name: "Yuvraj Kumar ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1sade0WKxKBTUNADjhMqQ76RrIMUFehlK",
+    name: "Yuvraj Kumar",
+    ImgPath: "yuvraj-kumar",
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2021,
@@ -272,8 +253,7 @@ export const TeamData = [
   },
   {
     name: "Abhijeet kumar Nandi",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1w_ah9MIyug_fdq6f0PeqHBOTE-I8a5CH",
+    ImgPath: "abhijeet-nandi",
     team: "Content Team",
     branch: "Chemical",
     batch: 2022,
@@ -288,8 +268,7 @@ export const TeamData = [
   },
   {
     name: "Aditya Ranjan",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1zBWSAUcCl9zHKJIExX23zHuaB4ysNq6C",
+    ImgPath: "aditya-ranjan",
     team: "Web D Team",
     branch: "IT",
     batch: 2022,
@@ -303,8 +282,7 @@ export const TeamData = [
   },
   {
     name: "Akshat kumar",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=129Gi25D8mOJxrHwEs1033l95q7OaffKH",
+    ImgPath: "akshat-kumar",
     team: "Sponsorship Team",
     branch: "Metallurgy",
     batch: 2022,
@@ -317,9 +295,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1TP4XybyumIyj2jdhL3Mrp3t5eIcjT1_n",
   },
   {
-    name: "Arin Raj ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1AV_VoaSWEO4_Q4PcxBGrxITOp6Uj5u5P",
+    name: "Arin Raj",
+    ImgPath: "arin-raj",
     team: "Sponsorship Team",
     branch: "Chemical",
     batch: 2022,
@@ -331,9 +308,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1aLjp9Tc6Umg3Ygbo8akqxvHQluvkqQg_",
   },
   {
-    name: "Aryan Kumar ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1qbbOrW4pynP2vIKQ1xbgOqgUZvvPpYuZ",
+    name: "Aryan Kumar",
+    ImgPath: "aryan-kumar",
     team: "Content Team",
     branch: "Mechanical",
     batch: 2022,
@@ -345,9 +321,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1qlFBd5Z4hbFHwZyCrkJKfEryFfugIn0I",
   },
   {
-    name: "Dona Bhattacharjee ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1puh1J59Ftl50r6IzkCdzWnWQjvyb8lDG",
+    name: "Dona Bhattacharjee",
+    ImgPath: "dona-bhattacharjee",
     team: "Content Team",
     branch: "Chemical",
     batch: 2022,
@@ -359,9 +334,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1pOtisxiPmKW4skyaCr3FSGEs3M_WRjFx",
   },
   {
-    name: "Gautam Buddha ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1YHRVDdP_bUJblWG-C60bOieVvUD7iYEy",
+    name: "Gautam Buddha",
+    ImgPath: "gautam-buddha",
     team: "Design Team",
     branch: "Chemical",
     batch: 2022,
@@ -375,8 +349,7 @@ export const TeamData = [
   },
   {
     name: "Harsh Kumar",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=155IKFn7ZlFKfrkQSXnvWS6TI6g1xONrz",
+    ImgPath: "harsh-kumar",
     team: "SSD Team",
     branch: "Electrical",
     batch: 2022,
@@ -389,9 +362,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1zL5hSbP3AgnrmJ6GfUy7C0ggciNpzRR6",
   },
   {
-    name: "Manisha kumari",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1oRoLLSchHQHyj2FSjsCpK7oeF1QPK1Jg",
+    name: "Manisha Kumari",
+    ImgPath: "manisha-kumari",
     team: "Web D Team",
     branch: "Production",
     batch: 2022,
@@ -404,10 +376,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1WpBs6e2NAeCUzKRe3mQV7AXJlHBqX4wI",
   },
   {
-    name: "MD SAMI",
-    // ImgPath: "md-sami",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1EHGnDalgXeWMoKjW0WG2vAtwYEzwwpLJ",
+    name: "MD Sami",
+    ImgPath: "md-sami",
     team: "Design Team",
     branch: "Chemical",
     batch: 2022,
@@ -420,9 +390,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1t3orIfqA9MaYMN86fSY4ODunmwFhE74f",
   },
   {
-    name: "Shahid Akhtar ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=13OgcKbaKT7VwvmrnbI28oJ25cYC4FszO",
+    name: "Shahid Akhtar",
+    ImgPath: "shahid-akhtar",
     team: "Design Team",
     branch: "Chemical",
     batch: 2022,
@@ -435,8 +404,7 @@ export const TeamData = [
   },
   {
     name: "Smriti Pal",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1JFh2iA7JQ5b6PTXebs9PSsc70g_u_tTu",
+    ImgPath: "smriti-pal",
     team: "Content Team",
     branch: "Production",
     batch: 2022,
@@ -448,9 +416,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1ukU3uD1715ApHq3GDLUv7g4du5fBxR5n",
   },
   {
-    name: "SONU KUMAR SAW ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1FEvHjSkG8NWqbrJjCs3wsg2YvBVqC1rX",
+    name: "Sonu Kumar Saw",
+    ImgPath: "sonu-kumar",
     team: "Design Team",
     branch: "Electrical",
     batch: 2022,
@@ -464,8 +431,7 @@ export const TeamData = [
   },
   {
     name: "Subham Kumar Saw",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1hMDfi5GVBLnkUCXEh1_ErcN3xKenxkeO",
+    ImgPath: "subham-saw",
     team: "Web D Team",
     branch: "Electrical",
     batch: 2022,
@@ -478,9 +444,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1K80FUpO97uLcKY2LZ5D7MJqwbggpzAvE",
   },
   {
-    name: "Sweety kumari",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1R0VXVPzC8XNLKFfuoNO2_xu_0eEjMxxC",
+    name: "Sweety Kumari",
+    ImgPath: "sweety-kumari",
     team: "Design Team",
     branch: "Metallurgy",
     batch: 2022,
@@ -492,9 +457,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1ArBmr2pRmGyGg8UQe4m6VuVn99FlOsTC",
   },
   {
-    name: "Yuvraj kumar ",
-    ImgPath:
-      "https://drive.google.com/thumbnail?id=1OxKVvZQ5E8bwf5nJtVrYo5gwp6PuscjQ",
+    name: "Yuvraj Kumar",
+    ImgPath: "yuvraj-kumar",
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2022,
