@@ -22,12 +22,12 @@ function HomeAbout() {
       >
         <Title content={"about us"} capitalize={true} align={"center"} />
         <div className="font-roboto lg:w-3/5 text-sm sm:text-xl sm:leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          suscipit totam modi ducimus ea error vel voluptate sint? Quidem ex eum
-          delectus illum officia facilis inventore esse deserunt quam repellat
-          molestias labore fugiat accusantium a nostrum odit dolor, nulla
-          voluptatibus. Ullam, quia commodi possimus incidunt expedita veniam
-          nam unde et aliquid tempore iste?
+          Since its founding in May 2021 with just nine members, LiGHT Sindri
+          has quickly grown to become a powerful organization with 31 active
+          members who are dedicated to upholding their purpose of uplifting
+          underprivileged communities. Their effective completion of five events
+          throughout their 2022–2023 reign is evidence of their commitment to
+          bringing about constructive change.
           <div className="w-fit mt-4">
             <Link to={"/about"}>
               <h1 className="cursor-pointer uppercase duration-150 border-2 border-[#ffa4476b] py-1 px-4 focus:outline-none hover:bg-[#ffa4476b] rounded text-lg">
