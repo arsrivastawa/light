@@ -24,7 +24,7 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  "../../../public/assets/TeamProfile/Founding-Members/" +
+                  "assets/TeamProfile/Founding-Members/" +
                   item.ImgPath +
                   ".jpg"
                   // item.ImgPath
@@ -52,7 +52,7 @@ function Members() {
               return (
                 <MembersCard
                   ImgUrl={
-                    "../../../public/assets/TeamProfile/Heads-CCs/" +
+                    "assets/TeamProfile/Heads-CCs/" +
                     item.ImgPath +
                     ".jpg"
                   }
@@ -75,7 +75,7 @@ function Members() {
             return (
               <MembersCard
                 ImgUrl={
-                  "../../../public/assets/TeamProfile/CTMs/" +
+                  "assets/TeamProfile/CTMs/" +
                   item.ImgPath +
                   ".jpg"
                 }
