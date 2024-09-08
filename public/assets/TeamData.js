@@ -363,7 +363,7 @@ export const TeamData = [
   },
   {
     name: "Manisha Kumari",
-    ImgPath: "manisha-kumari",
+    ImgPath: "manisha-mahato",
     team: "Web D Team",
     branch: "Production",
     batch: 2022,
