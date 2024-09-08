@@ -67,19 +67,7 @@ function Footer() {
                 href="#"
                 class="text-black hover:text-slate-500 dark:hover:text-white"
               >
-                <i class="text-xl bi bi-facebook"></i>
-              </a>
-              <a
-                href="#"
-                class="text-black hover:text-slate-500 dark:hover:text-white"
-              >
                 <i class="text-xl bi bi-instagram"></i>
-              </a>
-              <a
-                href="#"
-                class="text-black hover:text-slate-500 dark:hover:text-white"
-              >
-                <i class="text-xl bi bi-twitter-x"></i>
               </a>
               <a
                 href="#"
