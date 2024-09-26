@@ -55,7 +55,7 @@ function MembersCard({
             <div className="member-name-container text-center font-josefin font-bold text-xl uppercase">
               <h1>{name}</h1>
             </div>
-            <div className="domain-container font-josefin text-lg font-semibold text-slate-800 capitalize">
+            <div className="domain-container text-center font-josefin text-lg font-semibold text-slate-800 capitalize">
               <h1>{domainOrBranch}</h1>
             </div>
             <div className="socials-container text-2xl">
