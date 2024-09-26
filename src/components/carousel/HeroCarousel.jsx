@@ -10,9 +10,10 @@ function HeroCarousel() {
   return (
     <>
       <div className="w-full overflow-hidden relative max-h-[90vh] mb-4">
-        <div className="grid place-items-center w-full h-full bg-[#00000078] absolute top-0 left-0">
+        <div className="grid place-items-center w-full h-full bg-[#00000097] absolute top-0 left-0">
           <h1 class="text-[#fff] capitalize text-center font-roboto my-6 font-semibold text-4xl sm:text-6xl">
-            A text after discussions
+            Building a Brighter Tomorrow
+            <br /> Together
           </h1>
         </div>
         <Carousel
