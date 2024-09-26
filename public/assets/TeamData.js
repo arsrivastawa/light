@@ -326,7 +326,7 @@ export const TeamData = [
     team: "SSD Team",
     branch: "Electrical",
     batch: 2022,
-    position: "Core Team Member",
+    position: "SSD Team Head",
     email: "myselfharshkumar2532004@gmail.com",
     linkedIn: "https://www.linkedin.com/in/harsh-kumar-26a909266",
     insta:
@@ -381,7 +381,7 @@ export const TeamData = [
     team: "Content Team",
     branch: "Production",
     batch: 2022,
-    position: "Content Team Head",
+    position: "Media & Content Team Head",
     email: "Smritikrishnapal456@gmail.com",
     linkedIn: "https://www.linkedin.com/in/smriti-pal-b84a492b0",
     insta: "",
