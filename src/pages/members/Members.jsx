@@ -3,7 +3,7 @@ import MembersCard from "../../components/membersCard/MembersCard";
 import Container from "../../components/container/Container";
 import "./Members.css";
 import Title, { SubTitle } from "../../components/titles/Title";
-import { TeamData } from "/assets/TeamData.js?url";
+import TeamData from "/assets/TeamData.js?url";
 
 function Members() {
   useEffect(() => {
