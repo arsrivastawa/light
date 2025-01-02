@@ -1,8 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const directoryPath = "./public/assets/TeamProfile/Founding-Members"; // Replace this with your directory path
-const newDirectoryPath = "./public/assets/TeamProfile/Heads-CCs/Heads-CCs-min"; // Replace this with your directory path
+const directoryPath = "./TeamProfile/2k23"; // Replace this with your directory path
 
 function getFileSize(filePath) {
   const stats = fs.statSync(filePath);
@@ -17,19 +16,22 @@ fs.readdir(directoryPath, (err, files) => {
 
   files.forEach((file) => {
     const filePath = path.join(directoryPath, file);
-    const fileSize = getFileSize(filePath);
-    // const resolution = getImageResolution(filePath);
-    console.log(`${file}: ${fileSize.toFixed(2)} MB`);
+
+    // Extract the desired part of the filename
+    const match = file.match(/- (.+)\.jpg$/i);
+    if (match) {
+      const newFileName = match[1].toLowerCase().replace(/\s+/g, "-") + ".jpg";
+      const newFilePath = path.join(directoryPath, newFileName);
+
+      fs.rename(filePath, newFilePath, (err) => {
+        if (err) {
+          console.error(`Error renaming file ${filePath}:`, err);
+        } else {
+          console.log(`Renamed ${file} to ${newFileName}`);
+        }
+      });
+    } else {
+      console.log(`Skipping file ${file}, no match found.`);
+    }
   });
 });
-
-// const newFileName = file.replace(/(\.[\w\d_-]+)$/i, "-min$1");
-// const newFilePath = path.join(newDirectoryPath, newFileName);
-
-// fs.rename(oldFilePath, newFilePath, (err) => {
-//   if (err) {
-//     console.error(`Error renaming file ${oldFilePath}:`, err);
-//   } else {
-//     console.log(`File ${oldFilePath} renamed to ${newFilePath}`);
-//   }
-// });

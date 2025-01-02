@@ -1,7 +1,34 @@
 export const TeamData = [
   {
+    name: "Raj Shekhar Singh",
+    ImgPath: "2k20/raj-shekhar-singh",
+    team: "SSD Team",
+    branch: "Mechanical",
+    batch: 2020,
+    position: "Center Coordinator, SSD Team Head",
+    email: "singhrajshekhar895@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/raj-shekhar-singh-entrepreneur-mindset?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta:
+      "https://www.instagram.com/raj_shekhar_.singh?igsh=MTlwd2QzeDAzZmJudA==",
+    profile:
+      "https://drive.google.com/open?id=1GaW_vdOGw0tGDrFGbmeCa3SVC7ibItnA",
+  },
+  {
+    name: "Bittu Kumar",
+    ImgPath: "2k20/bittu-kumar",
+    branch: "CSE",
+    batch: 2020,
+    position: "Center Coordinator",
+    email: "bittukr2903@gmail.com",
+    linkedIn: "www.linkedin.com/in/bittu-kumar-6398b0289",
+    insta: "https://www.instagram.com/ayanshetra?igsh=MXZucHo0amlycWxhdA==",
+    profile:
+      "https://drive.google.com/open?id=1SZh7-MDKzvRNfbh6YT-o0ERtF01cwWGb",
+  },
+  {
     name: "Abhijeet Kumar Gupta",
-    ImgPath: "abhijeet-gupta",
+    ImgPath: "2k20/abhijeet-gupta",
     team: "Web D Team",
     branch: "CSE",
     batch: 2020,
@@ -14,7 +41,7 @@ export const TeamData = [
   },
   {
     name: "Adarsh Kumar",
-    ImgPath: "adarsh-kumar",
+    ImgPath: "2k20/adarsh-kumar",
     team: "Design Team",
     branch: "Metallurgy",
     batch: 2020,
@@ -28,20 +55,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1_6pQeKpESCrJDPzk75RGx_UNHUMBLFZ-",
   },
   {
-    name: "Bittu Kumar",
-    ImgPath: "bittu-kumar",
-    branch: "CSE",
-    batch: 2020,
-    position: "Center Coordinator",
-    email: "bittukr2903@gmail.com",
-    linkedIn: "www.linkedin.com/in/bittu-kumar-6398b0289",
-    insta: "https://www.instagram.com/ayanshetra?igsh=MXZucHo0amlycWxhdA==",
-    profile:
-      "https://drive.google.com/open?id=1SZh7-MDKzvRNfbh6YT-o0ERtF01cwWGb",
-  },
-  {
     name: "Dhruv Kumar",
-    ImgPath: "dhruv-kumar",
+    ImgPath: "2k20/dhruv-kumar",
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2020,
@@ -54,7 +69,7 @@ export const TeamData = [
   },
   {
     name: "Kumar Abhishek",
-    ImgPath: "kumar-abhishek",
+    ImgPath: "2k20/kumar-abhishek",
     team: "Web D Team",
     branch: "CSE",
     batch: 2020,
@@ -68,7 +83,7 @@ export const TeamData = [
   },
   {
     name: "Nishant Kumar Singh",
-    ImgPath: "nishant-kumar-singh",
+    ImgPath: "2k20/nishant-kumar-singh",
     team: "Content Team",
     branch: "IT",
     batch: 2020,
@@ -79,23 +94,8 @@ export const TeamData = [
       "https://drive.google.com/open?id=1lgzvT6YzOsx3WS2vAuGdiKzii3LMsU4w",
   },
   {
-    name: "Raj Shekhar Singh",
-    ImgPath: "raj-shekhar-singh",
-    team: "SSD Team",
-    branch: "Mechanical",
-    batch: 2020,
-    position: "Center Coordinator, SSD Team Head",
-    email: "singhrajshekhar895@gmail.com",
-    linkedIn:
-    "https://www.linkedin.com/in/raj-shekhar-singh-entrepreneur-mindset?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    insta:
-    "https://www.instagram.com/raj_shekhar_.singh?igsh=MTlwd2QzeDAzZmJudA==",
-    profile:
-    "https://drive.google.com/open?id=1GaW_vdOGw0tGDrFGbmeCa3SVC7ibItnA",
-  },
-  {
     name: "Sudhanshu Kumar Pandey",
-    ImgPath: "sudhanshu-pandey",
+    ImgPath: "2k20/sudhanshu-pandey",
     team: "Design Team",
     branch: "CSE",
     batch: 2020,
@@ -104,11 +104,11 @@ export const TeamData = [
     linkedIn: "https://www.linkedin.com/in/sudhanshu-pandey-a0a60b202",
     insta: "https://www.instagram.com/sudhanshu_70/",
     profile:
-    "https://drive.google.com/open?id=1LRRGwq8ZdrE7_VUzBUAkIrLwQYhX7f6P",
+      "https://drive.google.com/open?id=1LRRGwq8ZdrE7_VUzBUAkIrLwQYhX7f6P",
   },
   {
     name: "Satyam Harsh Gupta",
-    ImgPath: "satyam-harsh-gupta",
+    ImgPath: "2k21/satyam-harsh-gupta",
     team: "Design Team",
     branch: "Mechanical",
     batch: 2021,
@@ -121,7 +121,7 @@ export const TeamData = [
   },
   {
     name: "Shruti Roy",
-    ImgPath: "shruti-roy",
+    ImgPath: "2k21/shruti-roy",
     branch: "Civil",
     batch: 2021,
     position: "Center Coordinator",
@@ -130,25 +130,25 @@ export const TeamData = [
       "https://www.linkedin.com/in/shruti-roy-513255209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/__shruti_.roy?igsh=MWpocXNwYTdhMWo0eQ==",
     profile:
-    "https://drive.google.com/open?id=1iIG0azpmouLV-r63sXhaR-LSzBNIWQ5j",
+      "https://drive.google.com/open?id=1iIG0azpmouLV-r63sXhaR-LSzBNIWQ5j",
   },
   {
     name: "Suman Toppo",
-    ImgPath: "suman-toppo",
+    ImgPath: "2k21/suman-toppo",
     team: "Sponsorship Team",
     branch: "Civil",
     batch: 2021,
     position: "Sponsorship Team Head",
     email: "topposuman005@gmail.com",
     linkedIn:
-    "https://www.linkedin.com/in/suman-toppo-6676b723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/suman-toppo-6676b723a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/_suman_toppo__/",
     profile:
-    "https://drive.google.com/open?id=1vipLe43DeywqvkWayCa3dMM1WT6ViPjl",
+      "https://drive.google.com/open?id=1vipLe43DeywqvkWayCa3dMM1WT6ViPjl",
   },
   {
     name: "Yuvraj Kumar",
-    ImgPath: "yuvraj-kumar",
+    ImgPath: "2k21/yuvraj-kumar",
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2021,
@@ -162,7 +162,7 @@ export const TeamData = [
   },
   {
     name: "Vikram Kumar",
-    ImgPath: "vikram-kumar",
+    ImgPath: "2k21/vikram-kumar",
     team: "Design Team",
     branch: "Mechanical",
     batch: 2021,
@@ -175,7 +175,7 @@ export const TeamData = [
   },
   {
     name: "Abhijeet kumar",
-    ImgPath: "abhijeet-kumar",
+    ImgPath: "2k21/abhijeet-kumar",
     branch: "Mechanical",
     batch: 2021,
     position: "Sponsorship Team Head",
@@ -186,7 +186,7 @@ export const TeamData = [
   },
   {
     name: "Abhishek Kumar Mehta",
-    ImgPath: "abhishek-mehta",
+    ImgPath: "2k21/abhishek-mehta",
     team: "Design Team",
     branch: "Mechanical",
     batch: 2021,
@@ -200,7 +200,7 @@ export const TeamData = [
   },
   {
     name: "Aman Kumar Choudhary",
-    ImgPath: "aman-kumar-choudhary",
+    ImgPath: "2k21/aman-kumar-choudhary",
     team: "Sponsorship Team",
     branch: "Chemical",
     batch: 2021,
@@ -212,7 +212,7 @@ export const TeamData = [
   },
   {
     name: "Aman Ranjan Mishra",
-    ImgPath: "aman-ranjan-mishra",
+    ImgPath: "2k21/aman-ranjan-mishra",
     team: "Sponsorship Team",
     branch: "Chemical",
     batch: 2021,
@@ -226,7 +226,7 @@ export const TeamData = [
   },
   {
     name: "Kashaf Fateema",
-    ImgPath: "kashaf-fateema",
+    ImgPath: "2k21/kashaf-fateema",
     team: "Content Team",
     branch: "Chemical",
     batch: 2021,
@@ -239,7 +239,7 @@ export const TeamData = [
   },
   {
     name: "Ravi Kumar",
-    ImgPath: "ravi-kumar",
+    ImgPath: "2k21/ravi-kumar",
     team: "Content Team",
     branch: "Chemical",
     batch: 2021,
@@ -253,7 +253,7 @@ export const TeamData = [
   },
   {
     name: "Dona Bhattacharjee",
-    ImgPath: "dona-bhattacharjee",
+    ImgPath: "2k22/dona-bhattacharjee",
     team: "Content Team",
     branch: "Chemical",
     batch: 2022,
@@ -266,7 +266,7 @@ export const TeamData = [
   },
   {
     name: "Gautam Buddha",
-    ImgPath: "gautam-buddha",
+    ImgPath: "2k22/gautam-buddha",
     team: "Design Team",
     branch: "Chemical",
     batch: 2022,
@@ -280,7 +280,7 @@ export const TeamData = [
   },
   {
     name: "Abhijeet kumar Nandi",
-    ImgPath: "abhijeet-nandi",
+    ImgPath: "2k22/abhijeet-nandi",
     team: "Content Team",
     branch: "Chemical",
     batch: 2022,
@@ -295,7 +295,7 @@ export const TeamData = [
   },
   {
     name: "Aditya Ranjan",
-    ImgPath: "aditya-ranjan",
+    ImgPath: "2k22/aditya-ranjan",
     team: "Web D Team",
     branch: "IT",
     batch: 2022,
@@ -309,7 +309,7 @@ export const TeamData = [
   },
   {
     name: "Aryan Kumar",
-    ImgPath: "aryan-kumar",
+    ImgPath: "2k22/aryan-kumar",
     team: "Content Team",
     branch: "Mechanical",
     batch: 2022,
@@ -322,7 +322,7 @@ export const TeamData = [
   },
   {
     name: "Harsh Kumar",
-    ImgPath: "harsh-kumar",
+    ImgPath: "2k22/harsh-kumar",
     team: "SSD Team",
     branch: "Electrical",
     batch: 2022,
@@ -336,7 +336,7 @@ export const TeamData = [
   },
   {
     name: "Manisha Kumari",
-    ImgPath: "manisha-mahato",
+    ImgPath: "2k22/manisha-mahato",
     team: "Web D Team",
     branch: "Production",
     batch: 2022,
@@ -350,7 +350,7 @@ export const TeamData = [
   },
   {
     name: "MD Sami",
-    ImgPath: "md-sami",
+    ImgPath: "2k22/md-sami",
     team: "Design Team",
     branch: "Chemical",
     batch: 2022,
@@ -364,7 +364,7 @@ export const TeamData = [
   },
   {
     name: "Shahid Akhtar",
-    ImgPath: "shahid-akhtar",
+    ImgPath: "2k22/shahid-akhtar",
     team: "Design Team",
     branch: "Chemical",
     batch: 2022,
@@ -377,7 +377,7 @@ export const TeamData = [
   },
   {
     name: "Smriti Pal",
-    ImgPath: "smriti-pal",
+    ImgPath: "2k22/smriti-pal",
     team: "Content Team",
     branch: "Production",
     batch: 2022,
@@ -390,7 +390,7 @@ export const TeamData = [
   },
   {
     name: "Sonu Kumar Saw",
-    ImgPath: "sonu-kumar",
+    ImgPath: "2k22/sonu-kumar",
     team: "Design Team",
     branch: "Electrical",
     batch: 2022,
@@ -404,7 +404,7 @@ export const TeamData = [
   },
   {
     name: "Sweety Kumari",
-    ImgPath: "sweety-kumari",
+    ImgPath: "2k22/sweety-kumari",
     team: "Design Team",
     branch: "Metallurgy",
     batch: 2022,
@@ -417,7 +417,7 @@ export const TeamData = [
   },
   {
     name: "Yuvraj Kumar",
-    ImgPath: "yuvraj-kumar",
+    ImgPath: "2k22/yuvraj-kumar",
     team: "Sponsorship Team",
     branch: "Electrical",
     batch: 2022,
@@ -429,5 +429,195 @@ export const TeamData = [
       "https://www.instagram.com/yuvrajkumar.__6132?igsh=MXhodzE5ejNtbW41Mg==",
     profile:
       "https://drive.google.com/open?id=1IekAfgVpOWRjAUA5__tH29vf-XUQnZKA",
+  },
+  {
+    name: "Anshu Priya",
+    ImgPath: "2k23/anshu-priya",
+    team: "Design Team",
+    branch: "Metallurgy",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "anshupriya5084@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/anshu-priya-68260a290",
+    insta: null,
+  },
+  {
+    name: "Anil Kumar Yadav",
+    ImgPath: "2k23/anil-kumar-yadav",
+    team: "SSD Team",
+    branch: "Chemical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "anilyadav99377@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/the-anil-kumar-yadav?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: null,
+  },
+  {
+    name: "Rahul Sharma",
+    ImgPath: "2k23/rahul-sharma",
+    team: "Web D Team",
+    branch: "Chemical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "rahul07sharma7983@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/rahul-sharma-431a46293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/tech2_sci/",
+  },
+  {
+    name: "Sagar Kumar Kewat",
+    ImgPath: "2k23/sagar-kewat",
+    team: "SSD Team",
+    branch: "Civil",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "sagarkewat3636@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/sagar-kewat-84bb39290",
+    insta:
+      "https://www.instagram.com/sagarkewat321/profilecard/?igsh=bm00eW9ienpzZHM=",
+  },
+  {
+    name: "Shashi Kumar",
+    ImgPath: "2k23/shashi-kumar",
+    team: "Design Team",
+    branch: "Civil",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "suprabhatshashi@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/shashi-kumar-60b0b3325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta:
+      "https://www.instagram.com/shashisuprabhat106/profilecard/?igsh=MWQ5ZTZucGhrNmliMQ==",
+  },
+  {
+    name: "Komal Kumari",
+    ImgPath: "2k23/komal-kumari",
+    team: "Content Team",
+    branch: "Chemical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "komalk8107991@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/komal-kumari-207016291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta:
+      "https://www.instagram.com/_.komal5_/profilecard/?igsh=MXB2ZHN4NXVsamloNA==",
+  },
+  {
+    name: "Rishav Raj",
+    ImgPath: "2k23/rishav-raj",
+    team: "Sponsorship Team",
+    branch: "Civil",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "rishavmagadh@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/rishav-raj-0917662b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta:
+      "https://www.instagram.com/rishav_raj_11_/profilecard/?igsh=MWdkeXpjMjU2ZzhpNg==",
+  },
+  {
+    name: "Rohit Kumar",
+    ImgPath: "2k23/rohit-kumar",
+    team: "Content Team",
+    branch: "Chemical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "pocorohit@gmail.com",
+    linkedIn: "https://in.linkedin.com/in/rohit-sahu-a29453293",
+    insta: "https://www.instagram.com/r_o_h_i_t_sahu?igsh=MTFrZXZicHhuZ24yZw==",
+  },
+  {
+    name: "Ritesh Kumar Verma",
+    ImgPath: "2k23/ritesh-verma",
+    team: "Sponsorship Team",
+    branch: "Chemical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "riteshkrverma748@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/ritesh-verma-5b4b58291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/ritesh_kverma?igsh=OXZlb2N5bXBrNmRj",
+  },
+  {
+    name: "Rishika Gupta",
+    ImgPath: "2k23/rishika-gupta",
+    team: "Web D Team",
+    branch: "Electrical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "rishikagupta200345@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/rishika-gupta-a720a8205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: null,
+  },
+  {
+    name: "Shashi Kant Yadav",
+    ImgPath: "2k23/shashi-kant-yadav",
+    team: "SSD Team",
+    branch: "Chemical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "sashikant0311@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/shashi-kant-yadav-931625290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: null,
+  },
+  {
+    name: "Hariom Singh",
+    ImgPath: "2k23/hariom-singh",
+    team: "Sponsorship Team",
+    branch: "Electrical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "hs3762017@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/hariom-singh-807611290",
+  },
+  {
+    name: "Nidhi Tirkey",
+    ImgPath: "2k23/nidhi-tirkey",
+    team: "Design Team",
+    branch: "Civil",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "nidhitirkey462@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/nidhi-tirkey-72940b279",
+    insta: "https://www.instagram.com/nidhi__imatbtbu__?igsh=eDl3bHRxbzJuNTBy",
+  },
+  {
+    name: "MD Imran",
+    ImgPath: "2k23/md-imran",
+    team: "Design Team, Content Team",
+    branch: "Mining",
+    batch: 2023,
+    position: "Design Team Head, Content Team Head",
+    email: "imranhussain3273@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/md-imran-209b18290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta:
+      "https://www.instagram.com/_imran_hxn/profilecard/?igsh=Z29zNm5neXM5MGNm",
+  },
+  {
+    name: "Sonal Kumari",
+    ImgPath: "2k23/sonal-kumari",
+    team: "SSD Team",
+    branch: "Mechanical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "sonal.kumari2709@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/sonal-kumari-885a93290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    name: "Amit Kumar Gupta",
+    ImgPath: "2k23/amit-kumar-gupta",
+    team: "Content Team",
+    branch: "Electrical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "aspirantamitgupta2003@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/amit-kumar-gupta-2b163a292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/_amit_guptaaa?igsh=bjJhMWVuY2lvd2pi",
   },
 ];
