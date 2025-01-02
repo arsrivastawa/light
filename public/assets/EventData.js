@@ -182,12 +182,12 @@ export const events = [
     ],
   },
   {
-    title: "Anubhuti Awareness Seminar",
+    title: "Anubhuti",
     images: ["anubhuti6", "anubhuti1"],
     brief:
-      "LiGHT Sindri's Heartwarming Visit to Old Age Home Brightens Residents' Day!",
+      "Anubhuti: Raising Awareness on Child Safety and Empowerment",
     content: [
-      "On 6 November 2023, Light Sindri successfully conducted a children awareness seminar titled 'Abnubhuti' at Saraswati Vidya Mandir in Saharpura, Sindri. The primary aim of the seminar was to educate participants about good   and bad touch,  to  create awareness and promote child safety.",
+      "On 6 November 2023, Light Sindri successfully conducted a children awareness seminar titled 'Anubhuti' at Saraswati Vidya Mandir in Saharpura, Sindri. The primary aim of the seminar was to educate participants about good   and bad touch,  to  create awareness and promote child safety.",
       "The seminar aimed to empower attendees with knowledge on recognizing and responding to inappropriate touch, gestures, remarks and comments; ultimately fostering a safer environment for children. Through informative sessions, the organizers sought to eradicate misconceptions and equip participants with the tools to protect themselves and others.",
       "'Anubhuti' served as a crucial platform for raising awareness about good  and bad touch, providing valuable insights and tools to safeguard children. The collaborative effort of Light Sindri, the speakers, and the participants contributed to the success of this seminar, fostering a sense of responsibility and commitment towards the well-being of children in the community.",
     ],
@@ -207,7 +207,7 @@ export const events = [
     brief:
       "Umang: A Cultural Extravaganza Honoring Brilliance, Nationalism, and Memories",
     content: [
-      "From January 17th to 27th, 2023, LIGHT Sindri proudly presented Umang, an online cultural event celebrating patriotism and retro themes. Participants expressed their love for their country and embraced nostalgia through various performances.",
+      "From 17th Jan to 27th Jan, 2023, LIGHT Sindri proudly presented Umang, an online cultural event celebrating patriotism and retro themes. Participants expressed their love for their country and embraced nostalgia through various performances.",
 
       "Umang featured four segments:",
 
