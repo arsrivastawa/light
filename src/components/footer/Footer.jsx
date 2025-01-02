@@ -64,13 +64,19 @@ function Footer() {
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a
-                href="#"
+                href="https://www.instagram.com/light.sindri?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                 class="text-black hover:text-slate-500 dark:hover:text-white"
               >
                 <i class="text-xl bi bi-instagram"></i>
               </a>
               <a
-                href="#"
+                href="https://whatsapp.com/channel/0029VaeFHYk7j6g93rk2kz3W"
+                class="text-black hover:text-slate-500 dark:hover:text-white"
+              >
+                <i class="text-xl bi bi-whatsapp"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/light-sindri/"
                 class="text-black hover:text-slate-500 dark:hover:text-white"
               >
                 <i class="text-xl bi bi-linkedin"></i>

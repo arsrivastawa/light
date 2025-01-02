@@ -24,6 +24,58 @@ function GallerySection() {
 
 const data = [
   {
+    title: "Blanket Distribution Drive",
+    images: [
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+      { link: "blanket-distribution", alt: "blanket-distribution" },
+    ],
+  },
+  {
+    title: "Deepotsav",
+    images: [
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+      { link: "deepotsav", alt: "deepotsav" },
+    ],
+  },
+  {
+    title: "Celebration Shorts",
+    images: [
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+      { link: "celebshots", alt: "celebshots" },
+    ],
+  },
+  {
+    title: "Rakshak ko Rakhi",
+    images: [
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+      { link: "rkr", alt: "rkr" },
+    ],
+  },
+  {
     title: "Ballot Brilliance",
     images: [
       { link: "ballotbrilliance", alt: "ballotbrilliance" },
