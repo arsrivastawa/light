@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logoWithoutText.png";
 import { createPortal } from "react-dom";
 import "./SideBar.css";
 import NavButton from "../navButtons/NavButton";
@@ -40,7 +39,7 @@ function SideBar({ isMounted, unMount }) {
         <div className="px-4 w-[80%] flex justify-between">
           <Link to={"/"}>
             <div className="logo-container py-2 h-full w-[70px] bg-black grid place-items-center rounded-b-2xl">
-              <img src={Logo} className="w-[60%]" alt="Logo_Img" />
+              <img src="/assets/logoWithoutText.png" className="w-[60%]" alt="Logo_Img" />
             </div>
           </Link>
           <div

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../assets/logoWithoutText.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import SideBar from "./SideBar";
@@ -20,7 +19,7 @@ function Navbar() {
         <div class="nav-container items-stretch px-4 flex justify-between w-[90%] sm:w-[80%]">
           <Link to="/" className=" flex flex-row items-center">
             <div class="logo-container py-2 h-full w-[70px] bg-black grid place-items-center rounded-b-2xl">
-              <img src={Logo} className="w-[60%]" alt="logo" />
+              <img src="/assets/logoWithoutText.png" className="w-[60%]" alt="logo" />
             </div>
             <h1 className="sm:text-2xl text-xl font-roboto font-semibold ml-2">
               LiGHT Sindri

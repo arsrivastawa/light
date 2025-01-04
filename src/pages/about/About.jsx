@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Container from "../../components/container/Container";
 import "./About.css";
 import Title, { SubTitle } from "../../components/titles/Title";
-import Img from "../../assets/carouseLImg/CaImg3.jpg";
 
 function About() {
   useEffect(() => {
@@ -44,7 +43,11 @@ function About() {
             </div>
             <div className="w-full desktop:w-[40%] grid place-items-center">
               <div className="w-full overflow-hidden rounded-xl">
-                <img className="w-full" src={Img} alt="" />
+                <img
+                  className="w-full"
+                  src="/assets/carouselImg/CaImg3.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -80,7 +83,11 @@ function About() {
             </div>
             <div className="w-full desktop:w-[40%] grid place-items-center">
               <div className="w-full overflow-hidden rounded-xl">
-                <img className="w-full" src={Img} alt="" />
+                <img
+                  className="w-full"
+                  src="/assets/carouselImg/CaImg5.jpg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

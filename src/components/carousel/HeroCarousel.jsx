@@ -1,10 +1,8 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Img1 from "../../assets/carouseLImg/CaImg1.jpg";
-import Img2 from "../../assets/carouseLImg/CaImg2.jpg";
-import Img3 from "../../assets/carouseLImg/CaImg3.jpg";
-import Img4 from "../../assets/carouseLImg/CaImg4.jpg";
+
+const images = ["CaImg1", "CaImg2", "CaImg3", "CaImg4"];
 
 function HeroCarousel() {
   return (
@@ -28,21 +26,11 @@ function HeroCarousel() {
           swipeable={false}
           animationHandler={"fade"}
         >
-          <div>
-            <img src={Img1} />
-          </div>
-          <div>
-            <img src={Img2} />
-          </div>
-          <div>
-            <img src={Img3} />
-          </div>
-          <div>
-            <img src={Img4} />
-          </div>
-          <div>
-            <img src={Img2} />
-          </div>
+          {images.map((image, index) => (
+            <div key={index}>
+              <img src={`/assets/carouselImg/${image}.jpg`} alt="carousel" />
+            </div>
+          ))}
         </Carousel>
       </div>
     </>

@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../../assets/logoWithoutText.png";
 import { Link } from "react-router-dom";
 import FooterLink from "../footerButtons/FooterLink";
 
@@ -15,7 +14,7 @@ function Footer() {
                   to="/"
                   class="border-b-2 border-b-black w-fit p-1 flex items-center"
                 >
-                  <img src={Logo} class="mr-1 h-7" alt="Light_Logo" />
+                  <img src="/assets/logoWithoutText.png" class="mr-1 h-7" alt="Light_Logo" />
                   <span class="self-end text-xl sm:text-2xl -mb-1 font-semibold whitespace-nowrap dark:text-white">
                     LiGHT Sindri
                   </span>
