@@ -13,8 +13,8 @@ function About() {
       <div className="w-full h-full overflow-hidden">
         <div className="w-full h-full">
           <Title
-            content={"About Light Sindri"}
-            uppercase={true}
+            content={"About LiGHT Sindri"}
+            // uppercase={true}
             align={"center"}
           />
         </div>
@@ -85,7 +85,46 @@ function About() {
               <div className="w-full overflow-hidden rounded-xl">
                 <img
                   className="w-full"
-                  src="/assets/carouselImg/CaImg5.jpg"
+                  src="/assets/carouselImg/CaImg4.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="blurred-wrapper z-50 w-full relative bg-transparent before:top-[20%] desktop:before:w-64 before:w-32 desktop:before:top-[20%] before:left-[65%]">
+          <div className="about-hero flex gap-3 flex-col desktop:flex-row w-full py-5 lg:py-12 h-full sm:px-4 md:px-12 lg:px-20 xl:px-32">
+            <div className="w-full desktop:w-[60%] flex flex-col justify-center">
+              <div className="w-full">
+                <SubTitle
+                  marginY={"5"}
+                  content={"Our Vision"}
+                  align={"start"}
+                />
+              </div>
+              <p className="py-5 font-roboto w-full text-sm sm:text-base sm:leading-5">
+                LiGHT Sindri envisions a world where every individual,
+                regardless of their socio-economic background, has access to
+                education, resources, and opportunities to lead a dignified and
+                fulfilling life. By fostering an environment of inclusivity and
+                innovation, the organization aspires to create a ripple effect
+                of sustainable progress that transcends boundaries and
+                generations. LiGHT Sindri aims to become a beacon of hope and
+                transformation, inspiring communities to unite and tackle
+                challenges with collective strength and resilience. Their vision
+                extends beyond immediate aid, striving to build self-sustaining
+                ecosystems where empowerment and equality pave the way for a
+                brighter, more compassionate society. As a cornerstone of
+                positive change, LiGHT Sindri seeks to leave an indelible impact
+                on the Sindri region and beyond, driving humanity toward a
+                shared vision of prosperity and harmony.
+              </p>
+            </div>
+            <div className="w-full desktop:w-[40%] grid place-items-center">
+              <div className="w-full overflow-hidden rounded-xl">
+                <img
+                  className="w-full"
+                  src="/assets/carouselImg/CaImg2.jpg"
                   alt=""
                 />
               </div>
