@@ -142,6 +142,17 @@ export const events = [
     ],
   },
   {
+    title: "Orientation 2024",
+    images: ["orientation24", "orientation241"],
+    brief: "Orientation Session 2024 Highlights",
+    content: [
+      "We are excited to share the highlights from our Orientation 2024 session, held at the Deshpande Auditorium. The event captivated the audience with its inspiring presentations and engaging activities.",
+      "During this enriching session, we emphasized our NGO’s mission and showcased impactful social initiatives. Key highlights included our heartfelt visit to an old age home, where we shared moments of joy and companionship, and our initiative 'Anubhuti,' aimed at providing meaningful experiences to underprivileged communities.",
+      "We also presented our awareness campaign 'Satarkta,' focused on spreading social awareness, and celebrated the spirit of togetherness through our 'Pre-Holi Celebration.' Another proud moment was the 'Ballot Brilliance' initiative, encouraging youth participation in democratic processes, along with 'Rakshak ko Rakhi,' a heartfelt tribute to our protectors.",
+      "The interactive activities and enthusiastic participation made the orientation a grand success, reaffirming our commitment to social impact and community engagement."
+    ],
+  },
+  {
     title: "Rakshak ko Rakhi",
     images: ["rkr1", "rkr2"],
     brief: "Rakshak Ko Rakhi: A Tribute to Our Everyday Heroes",
@@ -193,12 +204,24 @@ export const events = [
     ],
   },
   {
-    title: "Pre-Diwali Celebration",
+    title: "Old Age Home Visit",
     images: ["oldage3", "oldage7"],
     brief:
       "LiGHT Sindri Brings Joy to Elders with Heartwarming Pre-Diwali Celebration",
     content: [
       "In a heartwarming act of compassion LiGHT Sindri organized a pre-Diwali celebration at a local old age home. Amidst the glow of diyas and shared laughter, stories were exchanged, creating lasting memories that will forever warm our hearts. The invaluable lessons and love from our elders filled us with gratitude, highlighting their timeless wisdom. Our team shared sweets, gave winter blankets. We extended a warm welcome to these elderly members of the LiGHT SINDRI family, treating them with affection and decency. Let's continue this giving and compassionate mentality as we approach the holiday season, knowing that when we band together, we can make every moment a bit better for those around us.",
+    ],
+  },
+  {
+    title: "Orientation 2023",
+    images: ["orientation23", "orientation231"],
+    brief:
+      "Orientation Session 2023 Highlights",
+    content: [
+      "We are thrilled to share the highlights from our first orientation session held on September 23rd at the Deshpande Auditorium. The session captivated the audience with its insightful presentation and engaging activities.",
+      "During this memorable event, we shared the core mission of our NGO, emphasizing the impactful social initiatives we have undertaken. We highlighted 'Unnati' our project dedicated to uplifting the state-run DAV Tasra school, and showcased our annual cultural fest, 'Umang', which promotes cultural enrichment and development.",
+      "Adding a touch of fun, attendees participated in an interactive game where they guessed social issues based on video clips, with chocolates awarded for correct answers. We also provided glimpses of our enriching webinars and workshops, demonstrating our commitment to continuous learning and community engagement.",
+      "The enthusiastic participation and positive response from attendees made the orientation a resounding success, reflecting our dedication to driving social change and fostering a connected community."
     ],
   },
   {

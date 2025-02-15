@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { SubTitle } from "../../components/titles/Title";
 import GalleryCard from "./GalleryCard";
 
 function GallerySection() {
+  useEffect(() => {
+      document.title = "Gallery of Memories";
+    });
   return (
     <div class="container w-[98%] mx-auto px-4 py-16">
       {data.map((data) => (
