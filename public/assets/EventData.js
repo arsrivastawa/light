@@ -78,7 +78,7 @@ export const EventData = [
       "The cultural event was organized by NGO LiGHT SINDRI and included the following sub-events: Kalakriti, Kavya, Nagma, and Kissa. Participants displayed their emotions, inventiveness, musicality, and narrative skills.",
   },
   {
-    title: "Old Age Home Visit",
+    title: "Pre-Diwali Celebration",
     image: "/assets/Gallery/oldage5.jpg",
     location: "Ramashram old age home, Govindpur",
     instaLink:
@@ -149,7 +149,7 @@ export const events = [
       "We are excited to share the highlights from our Orientation 2024 session, held at the Deshpande Auditorium. The event captivated the audience with its inspiring presentations and engaging activities.",
       "During this enriching session, we emphasized our NGO’s mission and showcased impactful social initiatives. Key highlights included our heartfelt visit to an old age home, where we shared moments of joy and companionship, and our initiative 'Anubhuti,' aimed at providing meaningful experiences to underprivileged communities.",
       "We also presented our awareness campaign 'Satarkta,' focused on spreading social awareness, and celebrated the spirit of togetherness through our 'Pre-Holi Celebration.' Another proud moment was the 'Ballot Brilliance' initiative, encouraging youth participation in democratic processes, along with 'Rakshak ko Rakhi,' a heartfelt tribute to our protectors.",
-      "The interactive activities and enthusiastic participation made the orientation a grand success, reaffirming our commitment to social impact and community engagement."
+      "The interactive activities and enthusiastic participation made the orientation a grand success, reaffirming our commitment to social impact and community engagement.",
     ],
   },
   {
@@ -195,8 +195,7 @@ export const events = [
   {
     title: "Anubhuti",
     images: ["anubhuti6", "anubhuti1"],
-    brief:
-      "Anubhuti: Raising Awareness on Child Safety and Empowerment",
+    brief: "Anubhuti: Raising Awareness on Child Safety and Empowerment",
     content: [
       "On 6 November 2023, Light Sindri successfully conducted a children awareness seminar titled 'Anubhuti' at Saraswati Vidya Mandir in Saharpura, Sindri. The primary aim of the seminar was to educate participants about good   and bad touch,  to  create awareness and promote child safety.",
       "The seminar aimed to empower attendees with knowledge on recognizing and responding to inappropriate touch, gestures, remarks and comments; ultimately fostering a safer environment for children. Through informative sessions, the organizers sought to eradicate misconceptions and equip participants with the tools to protect themselves and others.",
@@ -204,7 +203,7 @@ export const events = [
     ],
   },
   {
-    title: "Old Age Home Visit",
+    title: "Pre-Diwali Celebration",
     images: ["oldage3", "oldage7"],
     brief:
       "LiGHT Sindri Brings Joy to Elders with Heartwarming Pre-Diwali Celebration",
@@ -215,13 +214,12 @@ export const events = [
   {
     title: "Orientation 2023",
     images: ["orientation23", "orientation231"],
-    brief:
-      "Orientation Session 2023 Highlights",
+    brief: "Orientation Session 2023 Highlights",
     content: [
       "We are thrilled to share the highlights from our first orientation session held on September 23rd at the Deshpande Auditorium. The session captivated the audience with its insightful presentation and engaging activities.",
       "During this memorable event, we shared the core mission of our NGO, emphasizing the impactful social initiatives we have undertaken. We highlighted 'Unnati' our project dedicated to uplifting the state-run DAV Tasra school, and showcased our annual cultural fest, 'Umang', which promotes cultural enrichment and development.",
       "Adding a touch of fun, attendees participated in an interactive game where they guessed social issues based on video clips, with chocolates awarded for correct answers. We also provided glimpses of our enriching webinars and workshops, demonstrating our commitment to continuous learning and community engagement.",
-      "The enthusiastic participation and positive response from attendees made the orientation a resounding success, reflecting our dedication to driving social change and fostering a connected community."
+      "The enthusiastic participation and positive response from attendees made the orientation a resounding success, reflecting our dedication to driving social change and fostering a connected community.",
     ],
   },
   {
@@ -239,6 +237,23 @@ export const events = [
       "iii. Kavya: Poetry entries in Hindi or English, submitted as text or video.",
       "iv. Chalchitra: Short acting performances in video format.",
       "This event was more than just a competition; it was a journey of self-discovery, skill development, and cultural immersion. Umang created a vibrant platform for connection and personal growth, leaving a lasting impact on participants and spectators alike.",
+    ],
+  },
+  {
+    title: "Umang'22",
+    images: ["umang'223", "umang'221"],
+    brief:
+      "Umang: A Cultural Extravaganza Honoring Brilliance, Nationalism, and Memories",
+    content: [
+      "From 18th January to 26th January, 2022, LiGHT Sindri proudly presented Umang'22, an online cultural celebration dedicated to patriotism and nostalgia. This vibrant event offered a unique platform for participants to showcase their creativity, express their love for the nation, and relive the charm of bygone eras through a variety of performances.",
+
+      "Umang'22 featured four engaging segments:",
+
+      "i. Nagma: A soulful singing competition where participants submitted video performances, filling the air with patriotic and retro melodies.",
+      "ii. Kalakriti: An artistic showcase inviting handmade and digital artworks that captured the essence of the event’s themes.",
+      "iii. Kavya: A celebration of poetry in both Hindi and English, accepted in text or video form, allowing poets to voice their emotions and reflections.",
+      "iv. Kissa – A storytelling segment that brought tales to life through short video performances, blending creativity with cultural depth.",
+      "More than just a contest, Umang'22 was a celebration of passion, self-expression, and community spirit. It left a lasting impression on everyone involved, inspiring growth, connection, and heartfelt patriotism.",
     ],
   },
 ];

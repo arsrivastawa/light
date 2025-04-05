@@ -174,6 +174,19 @@ export const TeamData = [
       "https://drive.google.com/open?id=1WpgByLz3dfBeBmi2gbFDec_4S3qVDrtf",
   },
   {
+    name: "Anup Kumar",
+    ImgPath: "2k21/anup-kumar",
+    team: "Web D Team",
+    branch: "Mechanical",
+    batch: 2021,
+    position: "Design & Web D Team Head",
+    email: "anupbit25@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/vikram-kumar-356185244",
+    insta: "https://www.linkedin.com/in/anup-kumar-mehta-36354a231",
+    profile:
+      "https://drive.google.com/open?id=1WpgByLz3dfBeBmi2gbFDec_4S3qVDrtf",
+  },
+  {
     name: "Abhijeet kumar",
     ImgPath: "2k21/abhijeet-kumar",
     branch: "Mechanical",
@@ -491,19 +504,6 @@ export const TeamData = [
       "https://www.instagram.com/shashisuprabhat106/profilecard/?igsh=MWQ5ZTZucGhrNmliMQ==",
   },
   {
-    name: "Komal Kumari",
-    ImgPath: "2k23/komal-kumari",
-    team: "Content Team",
-    branch: "Chemical",
-    batch: 2023,
-    position: "Core Team Member",
-    email: "komalk8107991@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/komal-kumari-207016291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    insta:
-      "https://www.instagram.com/_.komal5_/profilecard/?igsh=MXB2ZHN4NXVsamloNA==",
-  },
-  {
     name: "Rishav Raj",
     ImgPath: "2k23/rishav-raj",
     team: "Sponsorship Team",
@@ -619,5 +619,29 @@ export const TeamData = [
     linkedIn:
       "https://www.linkedin.com/in/amit-kumar-gupta-2b163a292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/_amit_guptaaa?igsh=bjJhMWVuY2lvd2pi",
+  },
+  {
+    name: "Yashwant Mahli",
+    ImgPath: "2k23/yashwant-mahli",
+    team: "Design Team",
+    branch: "Civil",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "yr457683@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/yashwant-mahli-2a8ba32a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "",
+  },
+  {
+    name: "Warsha Kerketta",
+    ImgPath: "2k23/warsha-kerketta",
+    team: "Design Team",
+    branch: "Electrical",
+    batch: 2023,
+    position: "Core Team Member",
+    email: "helenkerketta1@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/warsha-kerketta-840192291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/warsha_kerketta_?igsh=dXVubGY1a2xlcTRr",
   },
 ];

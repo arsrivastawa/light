@@ -10,7 +10,7 @@ function GallerySection() {
     <div class="container w-[98%] mx-auto px-4 py-16">
       {data.map((data) => (
         <>
-          <SubTitle align={"start"} capitalize={true} content={data.title} />
+          <SubTitle hyperlink={data.hyperlink} align={"start"} capitalize={true} content={data.title} />
           <div className="w-full grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
             {data.images.map((image, index) => (
               <GalleryCard
@@ -27,6 +27,7 @@ function GallerySection() {
 
 const data = [
   {
+    hyperlink: "",
     title: "Blanket Distribution Drive",
     images: [
       { link: "blanket-distribution", alt: "blanket-distribution" },
@@ -40,6 +41,7 @@ const data = [
     ],
   },
   {
+    hyperlink: "",
     title: "Deepotsav",
     images: [
       { link: "deepotsav", alt: "deepotsav" },
@@ -53,6 +55,7 @@ const data = [
     ],
   },
   {
+    hyperlink: "",
     title: "Celebration Shorts",
     images: [
       { link: "celebshots", alt: "celebshots" },
@@ -66,6 +69,7 @@ const data = [
     ],
   },
   {
+    hyperlink: "",
     title: "Rakshak ko Rakhi",
     images: [
       { link: "rkr", alt: "rkr" },
@@ -79,6 +83,7 @@ const data = [
     ],
   },
   {
+    hyperlink: "",
     title: "Ballot Brilliance",
     images: [
       { link: "ballotbrilliance", alt: "ballotbrilliance" },
@@ -92,6 +97,7 @@ const data = [
     ],
   },
   {
+    hyperlink: "",
     title: "Bacchon Ki Holi",
     images: [
       { link: "holi", alt: "holi7" },
@@ -105,6 +111,29 @@ const data = [
     ],
   },
   {
+    hyperlink: "",
+    title: "Satarkata",
+    images: [
+      { link: "satarkata", alt: "satarkata" },
+      { link: "satarkata", alt: "satarkata" },
+    ],
+  },
+  {
+  hyperlink: "",
+    title: "Pre-Diwali Celebration",
+  images: [
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    { link: "oldage", alt: "oldage" },
+    ],
+  },
+  {
+    hyperlink: "",
     title: "Anubhuti",
     images: [
       { link: "anubhuti", alt: "anubhuti" },
@@ -118,7 +147,8 @@ const data = [
     ],
   },
   {
-    title: "Umang",
+    hyperlink: "",
+    title: "Umang'23",
     images: [
       { link: "umang", alt: "umang" },
       { link: "umang", alt: "umang" },
@@ -127,30 +157,22 @@ const data = [
     ],
   },
   {
-    title: "Pre-Diwali Celebration",
-    images: [
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-      { link: "oldage", alt: "oldage" },
-    ],
-  },
-  {
-    title: "Satarkata",
-    images: [
-      { link: "satarkata", alt: "satarkata" },
-      { link: "satarkata", alt: "satarkata" },
-    ],
-  },
-  {
+    hyperlink: "",
     title: "Unnati",
     images: [
       { link: "unnati", alt: "unnati" },
       { link: "unnati", alt: "unnati" },
+    ],
+  },
+  {
+    hyperlink: "",
+    title: "Umang'22",
+    images: [
+      { link: "umang'22", alt: "umang'22" },
+      { link: "umang'22", alt: "umang'22" },
+      { link: "umang'22", alt: "umang'22" },
+      { link: "umang'22", alt: "umang'22" },
+      { link: "umang'22", alt: "umang'22" },
     ],
   },
 ];
