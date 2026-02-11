@@ -7,15 +7,17 @@ import mediaCoverageData from "../../../public/assets/MediaCoverageData";
 
 function MediaCoverageSection() {
   return (
-    <div className="media-coverage-container w-full grid place-items-center">
-      <Title content={"Media Coverages"} capitalize={true} align={"center"} />
-      <div className="media-coverage grid place-items-center">
-        {mediaCoverageData.map((event) => (
-          <MediaCoverageSectionCard event={event} />
-        ))}
-      </div>
+  <div className="media-coverage-container w-full flex flex-col items-center">
+    <Title content="Media Coverages" capitalize align="center" />
+
+    <div className="media-coverage flex flex-wrap justify-center gap-4 sm:gap-6 w-full">
+      {mediaCoverageData.map((event) => (
+        <MediaCoverageSectionCard key={event.id} event={event} />
+      ))}
     </div>
-  );
+  </div>
+);
+
 }
 
 export default MediaCoverageSection;

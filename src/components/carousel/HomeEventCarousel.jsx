@@ -13,7 +13,7 @@ import { EventData } from "../../../public/assets/EventData";
 
 function HomeEventCarousel() {
   return (
-    <div className="w-full relative">
+    <div className="w-full  relative ">
       <div className="cursor-pointer font-medium carousel-previous-container rounded-full absolute -left-6 text-black text-center bg-[#ffb76e] top-1/2 -translate-y-1/2 font-poppins leading-10 text-2xl shadow-md w-10 h-10 z-10">
         &lt;
       </div>
@@ -36,10 +36,10 @@ function HomeEventCarousel() {
               slidesPerView: 3,
             },
             1280: {
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
           }}
-          spaceBetween={10}
+          spaceBetween={20}
           loop={true}
           pagination={{
             dynamicBullets: true,
@@ -49,7 +49,7 @@ function HomeEventCarousel() {
             prevEl: ".carousel-previous-container",
           }}
           modules={[Navigation, Pagination]}
-          className="mySwiper pb-12"
+          className="mySwiper pb-16 pt-4"
         >
           {EventData.map((event) => (
             <SwiperSlide className="flex justify-center">
