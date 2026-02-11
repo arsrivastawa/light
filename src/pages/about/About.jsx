@@ -27,7 +27,7 @@ function About() {
 
         <div className="max-w-6xl mx-auto space-y-16 mt-12">
 
-          {/* ABOUT US */}
+          
           <div className="grid md:grid-cols-2 gap-10 items-center">
             <div>
               <SubTitle content="About Us" align="start" />
@@ -43,7 +43,7 @@ function About() {
               </p>
             </div>
 
-            {/* IMAGE CARD */}
+         
             <div className="group perspective-1000">
               <div
                 className="
@@ -58,7 +58,7 @@ function About() {
               >
                 <img
                   className="w-full h-full object-cover"
-                  src="/assets/carouselImg/CaImg3.jpg"
+                  src="/assets/carouseLImg/CaImg3.jpg"
                   alt="About LiGHT Sindri"
                 />
               </div>
@@ -82,7 +82,7 @@ function About() {
               >
                 <img
                   className="w-full h-full object-cover"
-                  src="/assets/carouselImg/CaImg4.jpg"
+                  src="/assets/carouseLImg/CaImg4.jpg"
                   alt="Our Mission"
                 />
               </div>
@@ -133,7 +133,7 @@ function About() {
               >
                 <img
                   className="w-full h-full object-cover"
-                  src="/assets/carouselImg/CaImg2.jpg"
+                  src="/assets/carouseLImg/CaImg2.jpg"
                   alt="Our Vision"
                 />
               </div>
