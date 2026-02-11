@@ -4,10 +4,20 @@ import "./HomeTeam.css";
 
 function HomeTeam({ images }) {
   return (
-    <div className="home-team-container w-full grid place-items-center">
-      <div className="MembersCard-container grid place-items-center">
+    <div className="w-full flex justify-center py-10">
+      <div
+        className="
+        MembersCard-container
+        w-full max-w-7xl
+        flex flex-wrap
+        justify-center
+        gap-8
+        px-4
+        "
+      >
         {images.map((image, index) => (
           <MembersCard
+            key={index}
             animate={false}
             name={`${image.name} Team`}
             ImgUrl={`/assets/teamLogos/${image.url}.png`}
@@ -17,5 +27,6 @@ function HomeTeam({ images }) {
     </div>
   );
 }
+
 
 export default HomeTeam;

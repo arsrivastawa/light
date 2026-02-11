@@ -38,7 +38,7 @@ export function SubTitle({
       {hyperlink && hyperlink.length > 0 ? (
         <a
           href={hyperlink}
-          className="text-black text-sm sm:text-lg lg:text-xl hover:underline font-semibold ml-2"
+          className="text-slate-600 text-sm sm:text-lg lg:text-xl hover:underline font-semibold ml-4 italic hover:underline"
         >
           See glimpse<i class="ml-1 bi bi-box-arrow-up-right"></i>
         </a>

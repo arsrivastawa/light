@@ -1,6 +1,107 @@
 import { content } from "flowbite-react/tailwind";
 
 export const EventData = [
+
+  {
+  title: "SAMADHAN 2025",
+  image: "/assets/Gallery/samadhan.jpg",
+  location: "IT Building(BIT Sindri)",
+  date: "30 Jan, 2025",
+  instaLink: "https://www.instagram.com/p/DPQiwIrk_5a/",
+  breif:
+     "SAMADHAN 2025 brought together young innovators at BIT Sindri, where teams presented impactful solutions to real-world challenges like road safety and skill gaps through critical thinking and creativity.",  
+},
+
+
+  {
+  title: "Career Guidance Session",
+  image: "/assets/Gallery/career-guidance.jpg",
+  location: "Upgraded High School, Amtal",
+  date: "27 Jan, 2025",
+  instaLink: "https://www.instagram.com/p/DUKbeacD___/?img_index=1",
+  breif:
+     "LiGHT Sindri guided students at Upgraded High School, Amtal through career options, subject choices, and future opportunities, helping them gain clarity and confidence for their academic journey.",
+},
+
+
+  {
+  title: "Blanket Distribution Drive",
+  image: "/assets/Gallery/blanket-drive.jpg",
+  location: "Sai Mandir, Saharpura, Sindri, Dhanbad",
+  date: "11 Dec, 2025",
+  instaLink: "https://www.instagram.com/p/DSKTdwFE67B/?img_index=1",
+  breif:
+    "Through a Blanket Distribution Drive at Sai Mandir, Saharpura, LiGHT Sindri shared warmth and compassion with underprivileged families during the winter season.",
+},
+
+
+  {
+  title: "Tripti",
+  image: "/assets/Gallery/tripti.jpg",
+  location: "Premnagar, Sindri",
+  date: "25 Sep, 2025",
+  instaLink: "https://www.instagram.com/p/DPD6YTAk-fc/",
+  breif:
+   "Tripti was a food distribution initiative in Premnagar, Sindri, where LiGHT Sindri served warm meals to underprivileged communities, spreading care, empathy, and togetherness.",
+},
+
+
+  {
+  title: "Sparsh ",
+  image: "/assets/Gallery/sparsh.jpg",
+  location: "Ramashram, Dhanbad",
+  date: "16 Oct, 2025",
+  instaLink: "https://www.instagram.com/light.sindri/",
+  breif:
+    "Under the initiative Sparsh – The Touch of Care, LiGHT Sindri celebrated pre-Diwali at Ramashram Old Age Home by lighting diyas and sharing fruits, sweets, and heartfelt companionship.",
+},
+
+
+  {
+  title: "Samavesh",
+  image: "/assets/Gallery/samavesh.jpg",
+  location: "IIT Kharagpur",
+  date: "28 Mar, 2025",
+  instaLink: "https://www.instagram.com/p/DIqJgPXzrE6/",
+  breif:
+    "At Samavesh 2025, LiGHT Sindri joined LiGHT centres from across India at IIT Kharagpur to share experiences, achievements, and learnings from community initiatives.",
+},
+
+
+  {
+  title: "Aarogya Sindri",
+  image: "/assets/Gallery/aarogya-sindri.jpg",
+  location: "DAV Tasra",
+  date: "6 Mar, 2025",
+  instaLink: "https://www.instagram.com/p/DHDkzRtzfwX/",
+  breif:
+     "Aarogya Sindri focused on health and well-being at DAV Tasra by offering free medical check-ups, healthcare awareness, and essential medicines to students and teachers.",
+},
+
+
+  {
+  title: "Rangotsav",
+  image: "/assets/Gallery/rangotsav.jpg",
+  location: "Hindu Mission Orphanage, Dhanbad",
+  date: "10 Mar, 2025",
+  instaLink: "https://www.instagram.com/p/DHSoPx0zpG4/",
+  breif:
+    "LiGHT Sindri celebrated Holi at Hindu Mission Orphanage, Dhanbad, spreading joy through colors, music, sweets, and moments of laughter with the children.",
+},
+
+  
+{
+  title: "AI Awareness Program",
+  image: "/assets/Gallery/ai-awareness.jpg",
+  location: "DAV Rangamati",
+  date: "18 Jan, 2025",
+  instaLink: "https://www.instagram.com/p/DE6p8MpTIpO/",
+  breif:
+     "The AI Awareness Program at DAV Rangamati introduced students to Artificial Intelligence, its applications, ethical concerns, and responsible use in today’s digital world.",
+},
+
+
+  //
   {
     title: "Blanket Distribution Drive",
     image: "/assets/Gallery/blanket-distribution6.jpg",
@@ -108,8 +209,115 @@ export const EventData = [
       "Under the first phase of UNNATI, Upliftment of DAV School Tasra was done by providing it with basic facilities.",
   },
 ];
-
 export const events = [
+
+  {
+  title: "SAMADHAN 2025",
+  images: ["samadhan1", "samadhan2"],
+  brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",
+  content: [
+    "SAMADHAN 2025, organized by LiGHT Sindri at the IT Building, BIT Sindri, was a celebration of innovation, critical thinking, and youth-driven solutions.",
+    "Participants presented creative and impactful ideas addressing real-world challenges such as road safety and skill gaps. Each team demonstrated strong problem-solving skills and a deep understanding of societal needs.",
+    "The event encouraged collaboration, confidence, and fresh perspectives, making it a truly enriching experience for everyone involved. SAMADHAN 2025 stood as a testament to the power of ideas in shaping a better future."
+  ],
+},
+
+
+  {
+  title: "Career Guidance Session",
+  images: ["career-guidance1", "career-guidance2"],
+  brief: "Career Guidance Session: Helping Students Shape Their Future",
+  content: [
+    "LiGHT Sindri conducted a Career Guidance Session at Upgraded High School, Amtal, aimed at helping students make informed decisions about their academic and professional journeys.",
+    "Students from classes 9th to 12th actively participated in discussions on career streams, subject choices, and scholarship opportunities, gaining clarity about future paths.",
+    "The interactive session boosted confidence and motivation among students, reinforcing the belief that the right guidance at the right time can truly change lives."
+  ],
+},
+
+
+  {
+  title: "Blanket Distribution Drive",
+  images: ["blanket-drive1", "blanket-drive2"],
+  brief: "Blanket Distribution Drive: Spreading Warmth During Winter",
+  content: [
+    "To support underprivileged families during harsh winter conditions, LiGHT Sindri organized a Blanket Distribution Drive at Sai Mandir, Saharpura, Sindri.",
+    "Our volunteers distributed blankets with care and compassion, ensuring warmth, comfort, and dignity for those in need.",
+    "This initiative reflected the spirit of humanity and reminded us that even small acts of kindness can bring immense comfort and hope."
+  ],
+},
+
+
+  {
+  title: "Tripti",
+  images: ["tripti1", "tripti2"],
+  brief: "Tripti: A Step Towards Ending Hunger",
+  content: [
+    "Tripti was a food distribution drive organized by LiGHT Sindri in Premnagar, Sindri, with the aim of ensuring that no one sleeps hungry.",
+    "Volunteers served warm meals to underprivileged communities, sharing nourishment along with empathy and kindness.",
+    "The initiative strengthened the values of togetherness and compassion, reinforcing our commitment to serving humanity."
+  ],
+},
+
+
+  {
+  title: "Sparsh – The Touch of Care",
+  images: ["sparsh1", "sparsh2"],
+  brief: "Sparsh: A Pre-Diwali Celebration of Love and Care",
+  content: [
+    "Under the initiative Sparsh – The Touch of Care, LiGHT Sindri visited Ramashram Old Age Home, Dhanbad, for a heartfelt pre-Diwali celebration.",
+    "Volunteers lit diyas, distributed fruits and sweets, and spent quality time with the residents, sharing warmth and companionship.",
+    "The visit brought smiles and emotional connection, reminding us that care and presence matter the most."
+  ],
+},
+
+
+//   {
+//   title: "Samavesh",
+//   images: ["samavesh-1", "samavesh-2"],
+//   brief: "Samavesh: Sharing Experiences, Learning Together",
+//   content: [
+//     "Samavesh is an annual gathering organized by GYWS at IIT Kharagpur, bringing together LiGHT centres from across India.",
+//     "LiGHT Sindri participated by sharing experiences, initiatives, and achievements from the year, while learning from other centres.",
+//     "The event fostered collaboration, idea exchange, and collective growth, strengthening the LiGHT community nationwide."
+//   ],
+// },
+
+
+  {
+  title: "Aarogya Sindri",
+  images: ["aarogya-sindri1", "aarogya-sindri2"],
+  brief: "Aarogya Sindri: Promoting Health and Well-being",
+  content: [
+    "Aarogya Sindri was organized at DAV Tasra as a step towards building a healthier community.",
+    "The initiative provided free medical check-ups, healthcare awareness sessions, and essential medicines to students and teachers.",
+    "With dedicated doctors and volunteers, the event created a meaningful impact by spreading awareness, care, and smiles."
+  ],
+},
+
+
+  {
+  title: "Rangotsav",
+  images: ["rangotsav1", "rangotsav7"],
+  brief: "Rangotsav: Celebrating Holi with Joy and Togetherness",
+  content: [
+    "Rangotsav was a joyful Holi celebration organized by LiGHT Sindri at Hindu Mission Orphanage, Dhanbad.",
+    "Children and volunteers came together to play with colors, enjoy music, and share sweets, filling the day with laughter.",
+    "The event reflected the true spirit of Holi—love, unity, happiness, and compassion for all."
+  ],
+},
+
+
+  {
+  title: "AI Awareness Program",
+  images: ["ai-awareness1", "ai-awareness2"],
+  brief: "AI Awareness Program: Understanding Technology Responsibly",
+  content: [
+    "LiGHT Sindri conducted an AI Awareness Program at DAV Rangamati to introduce students to Artificial Intelligence and its real-world applications.",
+    "The session covered opportunities, ethical concerns, and challenges such as privacy and job displacement in the digital age.",
+    "Through interactive discussions, students were encouraged to adopt responsible and informed use of AI for a better future."
+  ],
+},
+
   {
     title: "Blanket Distribution Drive",
     images: ["blanket-distribution6", "blanket-distribution5"],

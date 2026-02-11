@@ -1,4 +1,12 @@
 const mediaCoverageData = [
+   {
+    title: "Sparsh - The Touch of Care",
+    image: "sparsh.jpeg",
+  },
+   {
+    title: "AI awareness Program",
+    image: "AIAwareness.jpeg",
+  },
   {
     title: "Rakshak Ko Rakhi",
     image: "RakshakKoRakhi1.png",

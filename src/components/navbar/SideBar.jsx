@@ -1,81 +1,78 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { createPortal } from "react-dom";
-import "./SideBar.css";
 import NavButton from "../navButtons/NavButton";
 
 function SideBar({ isMounted, unMount }) {
-  const [isTransitioning, setIsTransitioning] = useState(false);
   useEffect(() => {
-    let timeoutId;
-    if (isMounted && !isTransitioning) {
-      setIsTransitioning(true);
-      document.body.classList.add("scroll-lock");
-    } else if (!isMounted && isTransitioning) {
-      timeoutId = setTimeout(() => {
-        setIsTransitioning(false);
-        document.body.classList.remove("scroll-lock");
-      }, 300);
+    if (isMounted) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
     }
-    return () => {
-      if (
-        document.body.classList.contains("scroll-lock") &&
-        isTransitioning
-      ) {
-        document.body.classList.remove("scroll-lock");
-      }
-    };
-  }, [isMounted, isTransitioning]);
 
-  if (!isMounted && !isTransitioning) return null;
+    return () => document.body.classList.remove("overflow-hidden");
+  }, [isMounted]);
+
+  if (!isMounted) return null;
 
   return createPortal(
-    <div
-      className={`sidebar-container z-[100] top-0 left-0 fixed ${
-        isTransitioning && isMounted ? "translate-x-0" : "-translate-x-full"
-      } w-full h-full bg-white duration-300`}
-    >
-      <div className="sidebar-navbar w-full flex flex-row justify-center border-b border-b-slate-300">
-        <div className="px-4 w-[80%] flex justify-between">
-          <Link to={"/"}>
-            <div className="logo-container py-2 h-full w-[70px] bg-black grid place-items-center rounded-b-2xl">
-              <img src="/assets/logoWithoutText.png" className="w-[60%]" alt="Logo_Img" />
-            </div>
-          </Link>
-          <div
-            onClick={unMount}
-            className="close-logo text-2xl p-3 sm:text-3xl border-none cursor-pointer duration-150"
-          >
-            <i class="bi bi-x-lg duration-300 focus:outline-none active:bg-slate-200 rounded-full"></i>
+    <div className="fixed inset-0 z-[100]">
+      
+      
+      <div
+        className={`absolute top-0 right-0 h-full w-full bg-orange-400
+        transition-transform duration-300 ease-in-out
+        ${isMounted ? "translate-x-0" : "translate-x-full"}`}
+      >
+      
+        <div className="flex items-center justify-between px-4 h-[70px] border-b-4 border-white/30 mb-10">
+          <div className="flex items-center gap-5">
+            <img
+              src="/assets/logoWithoutText.png"
+              alt="logo"
+              className="h-15 w-12 rounded-full bg-orange-300 p-1"
+            />
+            <span className="text-slate-800 text-xl font-semibold">
+              LiGHT Sindri
+            </span>
           </div>
+
+          <button
+            onClick={unMount}
+            className="text-slate-800 text-2xl p-2"
+          >
+            ✕
+          </button>
         </div>
-      </div>
-      <div className="grid place-content-center font-medium gap-y-4 p-4 text-base sm:text-lg">
-        <NavButton title={"Home"} navigateTo={"/"} classname={"text-center"} />
-        <NavButton
-          title={"About"}
-          navigateTo={"/about"}
-          classname={"text-center"}
-        />
-        <NavButton
-          title={"Events"}
-          navigateTo={"/events"}
-          classname={"text-center"}
-        />
-        <NavButton
-          title={"Members"}
-          navigateTo={"/members"}
-          classname={"text-center"}
-        />
-        <NavButton
-          title={"Gallery"}
-          navigateTo={"/gallery"}
-          classname={"text-center"}
-        />
+
+        
+        <div className="flex flex-col items-center justify-center gap-20 text-slate-800 text-lg font-semibold tracking-wide h-[calc(100%-180px)]">
+          <Link to="/" onClick={unMount} >
+            HOME
+          </Link>
+          <Link to="/about" onClick={unMount}>
+            ABOUT US
+          </Link>
+          <Link to="/events" onClick={unMount}>
+            INITIATIVES
+          </Link>
+          <Link to="/gallery" onClick={unMount}>
+            MEDIA
+          </Link>
+          <Link to="/members" onClick={unMount}>
+            MEMBERS
+          </Link>
+          {/* <Link to="" onClick={unMount}>
+          DONATE</Link> */}
+        </div>
+
+        
       </div>
     </div>,
-    document.getElementById("overlay")
+    document.body
   );
 }
 
 export default SideBar;
+

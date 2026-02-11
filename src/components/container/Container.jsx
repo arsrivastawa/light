@@ -6,10 +6,15 @@ function Container({ children }) {
   return (
     <>
       <Navbar />
-      {children}
+
+      <main className="pt-16">
+        {children}
+      </main>
+
       <Footer />
     </>
   );
 }
+
 
 export default Container;
