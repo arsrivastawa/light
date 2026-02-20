@@ -2,7 +2,7 @@ export const TeamData = [
   {
     name: "Raj Shekhar Singh",
     ImgPath: "2k20/raj-shekhar-singh",
-    team: "SSD Team",
+    team: ["SSD Team"],
     branch: "Mechanical",
     batch: 2020,
     position: "Center Coordinator, SSD Team Head",
@@ -29,7 +29,7 @@ export const TeamData = [
   {
     name: "Abhijeet Kumar Gupta",
     ImgPath: "2k20/abhijeet-gupta",
-    team: "Web D Team",
+    team: ["Web D Team"],
     branch: "CSE",
     batch: 2020,
     position: "Web D Team Head",
@@ -42,7 +42,7 @@ export const TeamData = [
   {
     name: "Adarsh Kumar",
     ImgPath: "2k20/adarsh-kumar",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Metallurgy",
     batch: 2020,
     position: "SSD Team Head, Design Team Head",
@@ -57,7 +57,7 @@ export const TeamData = [
   {
     name: "Dhruv Kumar",
     ImgPath: "2k20/dhruv-kumar",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Electrical",
     batch: 2020,
     position: "Sponsorship Team Head, Content Team Head",
@@ -70,7 +70,7 @@ export const TeamData = [
   {
     name: "Kumar Abhishek",
     ImgPath: "2k20/kumar-abhishek",
-    team: "Web D Team",
+    team: ["Web D Team"],
     branch: "CSE",
     batch: 2020,
     position: "Sponsorship Team Head, Web D Team Head",
@@ -84,7 +84,7 @@ export const TeamData = [
   {
     name: "Nishant Kumar Singh",
     ImgPath: "2k20/nishant-kumar-singh",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "IT",
     batch: 2020,
     position: "Content Team Head",
@@ -96,7 +96,7 @@ export const TeamData = [
   {
     name: "Sudhanshu Kumar Pandey",
     ImgPath: "2k20/sudhanshu-pandey",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "CSE",
     batch: 2020,
     position: "Design Team Head",
@@ -109,7 +109,7 @@ export const TeamData = [
   {
     name: "Satyam Harsh Gupta",
     ImgPath: "2k21/satyam-harsh-gupta",
-    team: "Design Team",
+    team:["Design Team"],
     branch: "Mechanical",
     batch: 2021,
     position: "Center Coordinator",
@@ -135,7 +135,7 @@ export const TeamData = [
   {
     name: "Suman Toppo",
     ImgPath: "2k21/suman-toppo",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Civil",
     batch: 2021,
     position: "Sponsorship Team Head",
@@ -149,7 +149,7 @@ export const TeamData = [
   {
     name: "Yuvraj Kumar",
     ImgPath: "2k21/yuvraj-kumar",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Electrical",
     batch: 2021,
     position: "SSD Team Head",
@@ -163,7 +163,7 @@ export const TeamData = [
   {
     name: "Vikram Kumar",
     ImgPath: "2k21/vikram-kumar",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Mechanical",
     batch: 2021,
     position: "Design Team Head",
@@ -176,7 +176,7 @@ export const TeamData = [
   {
     name: "Anup Kumar",
     ImgPath: "2k21/anup-kumar",
-    team: "Web D Team",
+    team: ["Web D Team"],
     branch: "Mechanical",
     batch: 2021,
     position: "Design & Web D Team Head",
@@ -200,7 +200,7 @@ export const TeamData = [
   {
     name: "Abhishek Kumar Mehta",
     ImgPath: "2k21/abhishek-mehta",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Mechanical",
     batch: 2021,
     position: "Web D Team Head",
@@ -214,7 +214,7 @@ export const TeamData = [
   {
     name: "Aman Kumar Choudhary",
     ImgPath: "2k21/aman-kumar-choudhary",
-    team: "Sponsorship Team",
+    team:[ "Sponsorship Team"],
     branch: "Chemical",
     batch: 2021,
     position: "Sponsorship Team Head",
@@ -226,7 +226,7 @@ export const TeamData = [
   {
     name: "Aman Ranjan Mishra",
     ImgPath: "2k21/aman-ranjan-mishra",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Chemical",
     batch: 2021,
     position: "Sponsorship Team Head",
@@ -240,7 +240,7 @@ export const TeamData = [
   {
     name: "Kashaf Fateema",
     ImgPath: "2k21/kashaf-fateema",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Chemical",
     batch: 2021,
     position: "Content Team Head",
@@ -253,7 +253,7 @@ export const TeamData = [
   {
     name: "Ravi Kumar",
     ImgPath: "2k21/ravi-kumar",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Chemical",
     batch: 2021,
     position: "Content Team Head",
@@ -264,23 +264,10 @@ export const TeamData = [
     profile:
       "https://drive.google.com/open?id=1aTWNPNHtC_gi2XnSjx4NbJxzH55h0LiZ",
   },
-  {
-    name: "Dona Bhattacharjee",
-    ImgPath: "2k22/dona-bhattacharjee",
-    team: "Content Team",
-    branch: "Chemical",
-    batch: 2022,
-    position: "Center Coordinator",
-    email: "donabhattacharjee296@gmail.com",
-    linkedIn:
-      " https://www.linkedin.com/in/dona-bhattacharjee-a95b25273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    profile:
-      "https://drive.google.com/open?id=1pOtisxiPmKW4skyaCr3FSGEs3M_WRjFx",
-  },
-  {
+   {
     name: "Gautam Buddha",
     ImgPath: "2k22/gautam-buddha",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Chemical",
     batch: 2022,
     position: "Center Coordinator",
@@ -292,9 +279,23 @@ export const TeamData = [
       "https://drive.google.com/open?id=1pQQNn9O5cpGTtXwnwYQFbZmZpWCstaqL",
   },
   {
+    name: "Dona Bhattacharjee",
+    ImgPath: "2k22/dona-bhattacharjee",
+    team: ["Content Team"],
+    branch: "Chemical",
+    batch: 2022,
+    position: "Center Coordinator",
+    email: "donabhattacharjee296@gmail.com",
+    linkedIn:
+      " https://www.linkedin.com/in/dona-bhattacharjee-a95b25273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    profile:
+      "https://drive.google.com/open?id=1pOtisxiPmKW4skyaCr3FSGEs3M_WRjFx",
+  },
+ 
+  {
     name: "Abhijeet kumar Nandi",
     ImgPath: "2k22/abhijeet-nandi",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Chemical",
     batch: 2022,
     position: "Media & Content Team Head",
@@ -309,7 +310,7 @@ export const TeamData = [
   {
     name: "Aditya Ranjan",
     ImgPath: "2k22/aditya-ranjan",
-    team: "Web D Team",
+    team: ["Web D Team"],
     branch: "IT",
     batch: 2022,
     position: "Web D Team Head",
@@ -323,7 +324,7 @@ export const TeamData = [
   {
     name: "Aryan Kumar",
     ImgPath: "2k22/aryan-kumar",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Mechanical",
     batch: 2022,
     position: "Sponsorship Team Head",
@@ -336,7 +337,7 @@ export const TeamData = [
   {
     name: "Harsh Kumar",
     ImgPath: "2k22/harsh-kumar",
-    team: "SSD Team",
+    team: ["SSD Team"],
     branch: "Electrical",
     batch: 2022,
     position: "SSD Team Head",
@@ -350,7 +351,7 @@ export const TeamData = [
   {
     name: "Manisha Kumari",
     ImgPath: "2k22/manisha-mahato",
-    team: "Web D Team",
+    team: ["Web D Team"],
     branch: "Production",
     batch: 2022,
     position: "Sponsorship Team Head",
@@ -364,7 +365,7 @@ export const TeamData = [
   {
     name: "MD Sami",
     ImgPath: "2k22/md-sami",
-    team: "Design Team",
+    team:[ "Design Team"],
     branch: "Chemical",
     batch: 2022,
     position: "Design & Web D Team Head",
@@ -378,7 +379,7 @@ export const TeamData = [
   {
     name: "Shahid Akhtar",
     ImgPath: "2k22/shahid-akhtar",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Chemical",
     batch: 2022,
     position: "Design Team Head",
@@ -391,7 +392,7 @@ export const TeamData = [
   {
     name: "Smriti Pal",
     ImgPath: "2k22/smriti-pal",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Production",
     batch: 2022,
     position: "Media & Content Team Head",
@@ -404,7 +405,7 @@ export const TeamData = [
   {
     name: "Sonu Kumar Saw",
     ImgPath: "2k22/sonu-kumar",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Electrical",
     batch: 2022,
     position: "SSD Team Head",
@@ -418,7 +419,7 @@ export const TeamData = [
   {
     name: "Sweety Kumari",
     ImgPath: "2k22/sweety-kumari",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Metallurgy",
     batch: 2022,
     position: "Design Team Head",
@@ -431,7 +432,7 @@ export const TeamData = [
   {
     name: "Yuvraj Kumar",
     ImgPath: "2k22/yuvraj-kumar",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Electrical",
     batch: 2022,
     position: "Sponsorship Team Head",
@@ -446,7 +447,7 @@ export const TeamData = [
   {
     name: "Amit Kumar Gupta",
     ImgPath: "2k23/amit-kumar-gupta",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Electrical",
     batch: 2023,
     position: "Center Coordinator",
@@ -459,7 +460,7 @@ export const TeamData = [
    {
     name: "Sonal Kumari",
     ImgPath: "2k23/sonal-kumari",
-    team: "SSD Team",
+    team: ["SSD Team"],
     branch: "Mechanical",
     batch: 2023,
     position: "Center Coordinator",
@@ -470,7 +471,7 @@ export const TeamData = [
   {
     name: "Anshu Priya",
     ImgPath: "2k23/anshu-priya",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Metallurgy",
     batch: 2023,
     position: "Design Team Head",
@@ -481,7 +482,7 @@ export const TeamData = [
   {
     name: "Anil Kumar Yadav",
     ImgPath: "2k23/anil-kumar-yadav",
-    team: "SSD Team",
+    team: ["SSD Team"],
     branch: "Chemical",
     batch: 2023,
     position: "SSD Team Head, Media & Content Team Head",
@@ -493,7 +494,7 @@ export const TeamData = [
   {
     name: "Rahul Sharma",
     ImgPath: "2k23/rahul-sharma",
-    team: "Web D Team",
+    team:[ "Web D Team"],
     branch: "Chemical",
     batch: 2023,
     position: "Web D Team Head",
@@ -505,7 +506,7 @@ export const TeamData = [
   {
     name: "Sagar Kumar Kewat",
     ImgPath: "2k23/sagar-kewat",
-    team: "SSD Team",
+    team: ["SSD Team"],
     branch: "Civil",
     batch: 2023,
     position: "SSD Team Head",
@@ -517,7 +518,7 @@ export const TeamData = [
   {
     name: "Shashi Kumar",
     ImgPath: "2k23/shashi-kumar",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Civil",
     batch: 2023,
     position: "Design Team Head",
@@ -530,7 +531,7 @@ export const TeamData = [
   {
     name: "Rishav Raj",
     ImgPath: "2k23/rishav-raj",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Civil",
     batch: 2023,
     position: "Sponsorship Team Head",
@@ -543,7 +544,7 @@ export const TeamData = [
   {
     name: "Rohit Kumar",
     ImgPath: "2k23/rohit-kumar",
-    team: "Content Team",
+    team: ["Content Team"],
     branch: "Chemical",
     batch: 2023,
     position: "SSD Team Head, Media & Content Team Head",
@@ -554,7 +555,7 @@ export const TeamData = [
   {
     name: "Ritesh Kumar Verma",
     ImgPath: "2k23/ritesh-verma",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Chemical",
     batch: 2023,
     position: "Sponsorship Team Head",
@@ -566,7 +567,7 @@ export const TeamData = [
   {
     name: "Rishika Gupta",
     ImgPath: "2k23/rishika-gupta",
-    team: "Web D Team",
+    team: ["Web D Team"],
     branch: "Electrical",
     batch: 2023,
     position: "Web D Team Head",
@@ -578,7 +579,7 @@ export const TeamData = [
   {
     name: "Shashi Kant Yadav",
     ImgPath: "2k23/shashi-kant-yadav",
-    team: "SSD Team",
+    team: ["SSD Team"],
     branch: "Chemical",
     batch: 2023,
     position: "Media & Content Team Head",
@@ -590,7 +591,7 @@ export const TeamData = [
   {
     name: "Hariom Singh",
     ImgPath: "2k23/hariom-singh",
-    team: "Sponsorship Team",
+    team: ["Sponsorship Team"],
     branch: "Electrical",
     batch: 2023,
     position: "Sponsorship Team Head",
@@ -611,7 +612,7 @@ export const TeamData = [
   {
     name: "MD Imran",
     ImgPath: "2k23/md-imran",
-    team: "Design Team, Content Team",
+    team: ["Design Team", "Content Team"],
     branch: "Mining",
     batch: 2023,
     position: "Design Team Head",
@@ -625,7 +626,7 @@ export const TeamData = [
   {
     name: "Yashwant Mahli",
     ImgPath: "2k23/yashwant-mahli",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Civil",
     batch: 2023,
     position: "Design Team Head",
@@ -652,7 +653,7 @@ export const TeamData = [
   {
     name: "Ashok Kumar Mahato",
     ImgPath: "2k24/ashok-kumar-mahato",
-    team: "Web D Team, Media & Content Team",
+    team: ["Web D Team"," Media & Content Team"],
     branch: "CSE(CS)",
     batch: 2024,
     position: "Core Team Member",
@@ -664,7 +665,7 @@ export const TeamData = [
   {
     name: "Kajal Kumari",
     ImgPath: "2k24/kajal-kumari",
-    team: "Media & Content Team, ",
+    team: ["Media & Content Team"],
     branch: "Civil",
     batch: 2024,
     position: "Core Team Member",
@@ -676,7 +677,7 @@ export const TeamData = [
   {
     name: "Gautam Kumar",
     ImgPath: "2k24/gautam-kumar",
-    team: "Design Team, ",
+    team: ["Design Team"],
     branch: "Civil",
     batch: 2024,
     position: "Core Team Member",
@@ -689,7 +690,7 @@ export const TeamData = [
   {
     name: "Lucky Kumar",
     ImgPath: "2k24/lucky-kumar",
-    team: "SSD Team, Design Team",
+    team: ["SSD Team"," Design Team"],
     branch: "Mechanical",
     batch: 2024,
     position: "Core Team Member",
@@ -701,7 +702,7 @@ export const TeamData = [
   {
     name: "Shafqat Anwar",
     ImgPath: "2k24/shafqat-anwar",
-    team: "Sponsorship Team, SSD Team",
+    team: ["Sponsorship Team", "SSD Team"],
     branch: "Mechanical",
     batch: 2024,
     position: "Core Team Member",
@@ -713,7 +714,7 @@ export const TeamData = [
   {
     name: "Kailash Goswami",
     ImgPath: "2k24/kailash-goswami",
-    team: "Sponsorship Team,Design Team, SSD Team",
+    team: ["Sponsorship Team","Design Team", "SSD Team"],
     branch: "Electrical",
     batch: 2024,
     position: "Core Team Member",
@@ -725,7 +726,7 @@ export const TeamData = [
   {
     name: "Rishav Agarwal",
     ImgPath: "2k24/rishav-agarwal",
-    team: "Design Team, Sponsorship Team",
+    team: ["Design Team", "Sponsorship Team"],
     branch: "Mechanical",
     batch: 2024,
     position: "Core Team Member",
@@ -737,7 +738,7 @@ export const TeamData = [
   {
     name: "Pramod Marandi",
     ImgPath: "2k24/pramod-marandi",
-    team: "Design Team, Sponsorship Team",
+    team: ["Design Team", "Sponsorship Team"],
     branch: "civil",
     batch: 2024,
     position: "Core Team Member",
@@ -749,7 +750,7 @@ export const TeamData = [
   {
     name: "Muskan Kumari",
     ImgPath: "2k24/muskan-kumari",
-    team: "Media & Content Team, SSD Team",
+    team: ["Media & Content Team", "SSD Team"],
     branch: "Civil",
     batch: 2024,
     position: "Core Team Member",
@@ -761,7 +762,7 @@ export const TeamData = [
   {
     name: "Rupesh Mandal",
     ImgPath: "2k24/rupesh-mandal",
-    team: "Design Team, Media & Content Team, Sponsorship Team",
+    team: ["Design Team", "Media & Content Team", "Sponsorship Team"],
     branch: "Chemical",
     batch: 2024,
     position: "Core Team Member",
@@ -773,7 +774,7 @@ export const TeamData = [
   {
     name: "Anjali Kumari",
     ImgPath: "2k24/anjali-kumari",
-    team: "Web D Team",
+    team: ["Sponsorship Team"],
     branch: "Mechanical",
     batch: 2024,
     position: "Core Team Member",
@@ -785,7 +786,7 @@ export const TeamData = [
   {
     name: "Tannu Kumari",
     ImgPath: "2k24/tannu-kumari",
-    team: "Web D Team,Media & Content Team",
+    team: ["Web D Team","Media & Content Team"],
     branch: "Civil",
     batch: 2024,
     position: "Core Team Member",
@@ -797,7 +798,7 @@ export const TeamData = [
   {
     name: "Neha Kumari",
     ImgPath: "2k24/neha-kumari",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Civil",
     batch: 2024,
     position: "Core Team Member",
@@ -809,7 +810,7 @@ export const TeamData = [
   {
     name: "Ruby Sharma",
     ImgPath: "2k24/ruby-sharma",
-    team: "Design Team, SSD Team",
+    team: ["Design Team", "SSD Team"],
     branch: "Chemical",
     batch: 2024,
     position: "Core Team Member",
@@ -823,7 +824,7 @@ export const TeamData = [
   {
     name: "Shubham Singh",
     ImgPath: "2k24/shubham-singh",
-    team: "Sponsorship Team, SSD Team ",
+    team: ["Sponsorship Team", "SSD Team"],
     branch: "Mining",
     batch: 2024,
     position: "Core Team Member",
@@ -835,7 +836,7 @@ export const TeamData = [
   {
     name: "Maitri",
     ImgPath: "2k24/maitri",
-    team: "Web D Team, Media & Content Team",
+    team: ["Web D Team", "Media & Content Team"],
     branch: "IT",
     batch: 2024,
     position: "Core Team Member",
@@ -847,7 +848,7 @@ export const TeamData = [
   {
     name: "sanjay Ekka",
     ImgPath: "2k24/sanjay-ekka",
-    team: "Design Team",
+    team: ["Design Team"],
     branch: "Mining",
     batch: 2024,
     position: "Core Team Member",
@@ -859,7 +860,7 @@ export const TeamData = [
   {
     name: "Rashmi Roushan",
     ImgPath: "2k24/rashmi-roushan",
-    team: "Media & Content Team, Sponsorship Team",
+    team: ["Media & Content Team", "Sponsorship Team"],
     branch: "Electrical",
     batch: 2024,
     position: "Core Team Member",
@@ -870,7 +871,7 @@ export const TeamData = [
   {
     name: "Shreya Tirkey",
     ImgPath: "2k24/shreya-tirkey",
-    team: "Media & Content Team",
+    team: ["Media & Content Team"],
     branch: "Chemical",
     batch: 2024,
     position: "Core Team Member",
@@ -882,7 +883,7 @@ export const TeamData = [
   {
     name: "Sourabh Kumar",
     ImgPath: "2k24/sourabh-kumar",
-    team: "Web D Team",
+    team:[""],
     branch: "Mechanical",
     batch: 2024,
     position: "Core Team Member",

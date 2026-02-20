@@ -32,7 +32,7 @@ function About() {
             <div>
               <SubTitle content="About Us" align="start" />
               <p className="mt-4 text-sm sm:text-base text-slate-700 leading-relaxed">
-                Founded in May 2021 with just nine passionate members, LiGHT
+                Founded on 14 May 2021 with just nine passionate members, LiGHT
                 Sindri has grown into a strong organization of more than 48 active
                 members. The group has successfully organized multiple
                 community-driven initiatives focused on education, social

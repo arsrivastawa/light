@@ -28,7 +28,7 @@ function HeroCarousel() {
         >
           {images.map((image, index) => (
             <div key={index}>
-              <img src={`/assets/carouselImg/${image}.jpg`} alt="carousel" />
+              <img src={`/assets/carouseLImg/${image}.jpg`} alt="carousel" />
             </div>
           ))}
         </Carousel>
