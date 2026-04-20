@@ -59,7 +59,7 @@ function HomeAbout() {
               text-gray-800 mt-6 max-w-3xl
               "
             >
-              Founded in May 2021, LiGHT Sindri started as a group of nine dedicated volunteers committed to social welfare and community development. Today, the organization comprises more than 48 active members and has successfully conducted more than 15 impactful events, reflecting its sustained commitment to meaningful and inclusive social change.
+              Founded on 14 May 2021, LiGHT Sindri started as a group of nine dedicated volunteers committed to social welfare and community development. Today, the organization comprises more than 48 active members and has successfully conducted more than 15 impactful events, reflecting its sustained commitment to meaningful and inclusive social change.
             </p>
 
             <div className="mt-8 flex justify-center">

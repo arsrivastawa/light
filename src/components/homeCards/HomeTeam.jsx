@@ -1,8 +1,17 @@
 import React from "react";
 import MembersCard from "../membersCard/MembersCard";
+import { useNavigate } from "react-router-dom";
 import "./HomeTeam.css";
 
 function HomeTeam({ images }) {
+
+   const navigate = useNavigate();
+
+  const handleTeamClick = (teamName) => {
+    navigate(`/members?team=${encodeURIComponent(teamName)}`);
+  };
+
+
   return (
     <div className="w-full flex justify-center py-10">
       <div
@@ -16,12 +25,17 @@ function HomeTeam({ images }) {
         "
       >
         {images.map((image, index) => (
-          <MembersCard
+          <div
             key={index}
-            animate={false}
-            name={`${image.name} Team`}
-            ImgUrl={`/assets/teamLogos/${image.url}.png`}
-          />
+            onClick={() => handleTeamClick(image.name)}
+            className="cursor-pointer"
+          >
+            <MembersCard
+              animate={false}
+              name={`${image.name} Team`}
+              ImgUrl={`/assets/teamLogos/${image.url}.png`}
+            />
+          </div>
         ))}
       </div>
     </div>

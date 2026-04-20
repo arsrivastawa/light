@@ -5,23 +5,23 @@ import HomeTeam from "../homeCards/HomeTeam";
 
 const images = [
   {
-    name:"Web Development",
+    name:"Web D Team",
     url:"webd"
   },
   {
-    name:"SSD",
+    name:"SSD Team",
     url:"ssd"
   },
   {
-    name:"Sponsorship",
+    name:"Sponsorship Team",
     url:"sponsorship"
   },
   {
-    name:"Media & Content",
+    name:"Media & Content Team",
     url:"media"
   },
   {
-    name:"Design",
+    name:"Design Team",
     url:"design"
   }
 ]

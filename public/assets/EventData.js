@@ -25,7 +25,7 @@ export const EventData = [
 
 
   {
-  title: "Blanket Distribution Drive",
+  title: "Blanket Distribution Drive 2.0",
   image: "/assets/Gallery/blanket-drive.jpg",
   location: "Sai Mandir, Saharpura, Sindri, Dhanbad",
   date: "11 Dec, 2025",
@@ -236,7 +236,7 @@ export const events = [
 
 
   {
-  title: "Blanket Distribution Drive",
+  title: "Blanket Distribution Drive 2.0",
   images: ["blanket-drive1", "blanket-drive2"],
   brief: "Blanket Distribution Drive: Spreading Warmth During Winter",
   content: [
