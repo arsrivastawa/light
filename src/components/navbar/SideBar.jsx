@@ -63,6 +63,9 @@ function SideBar({ isMounted, unMount }) {
           <Link to="/members" onClick={unMount}>
             MEMBERS
           </Link>
+          <Link to="/gyws" onClick={unMount}>
+            GYWS
+          </Link>
           {/* <Link to="" onClick={unMount}>
           DONATE</Link> */}
         </div>

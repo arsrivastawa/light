@@ -54,6 +54,11 @@ function Navbar() {
               navigateTo={"/gallery"}
               className={"mx-1 text-lg"}
             />
+            <NavButton
+              title={"GYWS"}
+              navigateTo={"/gyws"}
+              className={"mx-1 text-lg"}
+            />
           </div>
           <div
             onClick={() => setIsOpen(true)}
