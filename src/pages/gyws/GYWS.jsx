@@ -34,7 +34,7 @@ function GYWS() {
             {/* ── About GYWS ── */}
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
-                <SubTitle content="Who We Are" align="start" />
+                <SubTitle content="What is GYWS?" align="start" />
                 <p className="mt-4 text-sm sm:text-base text-slate-700 leading-relaxed">
                   The Gopali Youth Welfare Society (GYWS) is a student-run social
                   initiative under the banner of IIT Kharagpur. Founded with a
@@ -81,9 +81,9 @@ function GYWS() {
               </div>
             </div>
 
-            {/* ── Our Mission ── */}
+            {/* ──  Mission ── */}
             <div className="grid md:grid-cols-2 gap-10 items-center">
-              <div className="group perspective-1000">
+              <div className="group perspective-500 ">
                 <div
                   className="
                     rounded-2xl overflow-hidden border
@@ -96,15 +96,15 @@ function GYWS() {
                   "
                 >
                   <img
-                    className="w-full h-full object-cover"
-                    src="/assets/gyws/mission.jpg"
+                    className="w-1/2 h-1/2 object-cover mx-auto"
+                    src="/assets/gyws/mission.png"
                     alt="Our Mission"
                   />
                 </div>
               </div>
 
               <div>
-                <SubTitle content="Our Mission" align="start" />
+                <SubTitle content=" Mission" align="start" />
                 <p className="mt-4 text-sm sm:text-base text-slate-700 leading-relaxed">
                   GYWS is driven by the mission to empower the youth and families of
                   Gopali through education, skill development, and community
@@ -119,7 +119,7 @@ function GYWS() {
 
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
-                <SubTitle content="Our Vision" align="start" />
+                <SubTitle content=" Vision" align="start" />
                 <p className="mt-4 text-sm sm:text-base text-slate-700 leading-relaxed">
                   GYWS envisions a future where no village adjacent to India's premier
                   institutions remains invisible to progress. The society aspires to
@@ -130,7 +130,7 @@ function GYWS() {
                 </p>
               </div>
 
-              <div className="group perspective-1000">
+              <div className="group perspective-200">
                 <div
                   className="
                     rounded-2xl overflow-hidden border
@@ -143,8 +143,8 @@ function GYWS() {
                   "
                 >
                   <img
-                    className="w-full h-full object-cover"
-                    src="/assets/gyws/vision.jpg"
+                    className="w-1/2 h-1/2 object-cover mx-auto"
+                    src="/assets/gyws/vision.png"
                     alt="Our Vision"
                   />
                 </div>
