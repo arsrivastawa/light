@@ -6,6 +6,7 @@ import Members from "./pages/members/Members";
 import Gallery from "./pages/gallery/Gallery";
 import About from "./pages/about/About";
 import Events from "./pages/events/Events";
+import GYWS from "./pages/gyws/GYWS";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/gyws" element = {<GYWS/>}/>
         </Routes>
       
     </>
