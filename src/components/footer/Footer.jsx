@@ -83,7 +83,7 @@ function Footer() {
             </p>
 
             <a
-              href="https://forms.gle/Yu4CdTGJKZx1kJf58"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScelBf18FPZG2_v4rjmiQyq24CLvI7pKzSyGkIBhgWrIfCgUQ/viewform?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAcGRvZgJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafx5DvnLDXzQJPsxdyhuxwkecBi8gVczbPfR2RqrCy85Z5UkTnnb_l5Tmq8kg_aem_rbfoI1ZtefWSI5QDLsrA-Q"
               target="_blank"
               className="inline-block px-5 py-2 text-sm font-medium border-2 border-black rounded-full 
               hover:bg-black hover:text-white transition-all duration-300"
