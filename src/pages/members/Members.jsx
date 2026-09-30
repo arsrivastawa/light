@@ -8,7 +8,7 @@ import { TeamData } from "../../../public/assets/TeamData";
 import { Helmet } from "react-helmet-async";
 
 function Members() {
-  const [batch, setBatch] = useState(2023);
+  const [batch, setBatch] = useState(2024);
   const [subTitle, setSubTitle] = useState("CCs & Heads");
 
   const teamArr = [
@@ -140,9 +140,9 @@ function Members() {
                   <ul className="py-1 text-sm">
                     <li onClick={() => handleBatchChange(2020, "2k20-Founding Members")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k20-Founding Members</li>
                     <li onClick={() => handleBatchChange(2021, "2k21")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k21</li>
-                    <li onClick={() => handleBatchChange(2022, "2k22 Advisory Body")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k22 Advisory Body</li>
-                    <li onClick={() => handleBatchChange(2023, "2k23-CCs & Heads")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k23-CCs & Heads</li>
-                    <li onClick={() => handleBatchChange(2024, "2k24-CTMs")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k24-CTMs</li>
+                    <li onClick={() => handleBatchChange(2022, "2k22")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k22</li>
+                    <li onClick={() => handleBatchChange(2023, "2k23-Advisory Body")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k23-Advisory Body</li>
+                    <li onClick={() => handleBatchChange(2024, "2k24-CCs & Heads")} className="px-4 py-2 cursor-pointer hover:bg-gray-100">2k24-CCs & Heads</li>
                   </ul>
                 </div>
               )}
@@ -176,10 +176,43 @@ function Members() {
                 key={item.email}
                 ImgUrl={`assets/TeamProfile/${item.ImgPath}.jpg`}
                 domainOrBranch={
-                  item.batch === 2023
-                    ? item.position
-                    : `${item.branch} - ${String(item.batch).replace("0", "k")}`
-                }
+    item.batch === 2023
+        ? "Advisory Board"
+        : item.batch === 2024
+        ? item.position
+        : (item.batch === 2020 ||
+           item.batch === 2021 ||
+           item.batch === 2022)
+        ? `${item.branch} - ${String(item.batch).replace("20", "2k")}`
+        : item.position
+}
+
+//                 domainOrBranch={
+//     item.batch === 2023
+//         ? "Advisory Board"
+//         : item.batch === 2024
+//         ? item.position
+//         : item.batch === 2022 || item.batch === 2021 || item.batch === 2020
+//         ? item.branch
+//         : item.position
+// }
+//                 domainOrBranch={
+//     item.batch === 2023
+//         ? "Advisory Board"
+//         : item.position
+// }
+                       
+
+                
+                //    domainOrBranch={
+                //    item.batch === 2024
+                //      ? item.position
+                //      : `${item.branch} - ${String(item.batch).replace("0", "k")}`
+                //  }
+                   
+                 
+
+               // domainOrBranch={item.position}
                 email={item.email}
                 instaUrl={item.insta}
                 linkedinUrl={item.linkedIn}
