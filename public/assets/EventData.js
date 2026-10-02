@@ -2,16 +2,38 @@ import { content } from "flowbite-react/tailwind";
 
 export const EventData = [
 
-  {
-  title: "SAMADHAN 2025",
-  image: "/assets/Gallery/samadhan.jpg",
-  location: "IT Building(BIT Sindri)",
-  date: "30 Jan, 2025",
-  instaLink: "https://www.instagram.com/p/DPQiwIrk_5a/",
+  
+
+{
+  title: "Saksham",
+  image: "/assets/Gallery/saksham1.jpg",
+  location: "Proposed High School, Kushmatand, Dhanbad",
+  date: "25 Sep, 2026",
+  instaLink: "https://www.instagram.com/p/Ddv6zpqk7PM/?stkn=aDQ4dWRxNGE1Nnpj",
   breif:
-     "SAMADHAN 2025 brought together young innovators at BIT Sindri, where teams presented impactful solutions to real-world challenges like road safety and skill gaps through critical thinking and creativity.",  
+    "Team LiGHT Sindri organized Saksham, an awareness session on PCOS/PCOD on September 25, 2026, at Proposed High School, Kushmatand, Dhanbad. The session focused on promoting awareness about menstrual health, PCOS/PCOD, and the importance of self-care among students. Through interactive discussions, students gained valuable insights into women's health, helping break misconceptions and encouraging them to prioritize their well-being.",
 },
 
+
+{
+    title: "Rakshak ko Rakhi",
+    image: "/assets/Gallery/rakshak-rakhi1.jpg",
+    location: "Gaushala O.P. Thana, Sindri",
+    date: "26 Aug, 2026",
+    instaLink: "https://www.instagram.com/p/DckiDZFk03F/?stkn=N245M2RrMWxiczlt",
+    breif:
+      "Team LiGHT Sindri celebrated Rakshak ko Rakhi, honored soldiers and police on August 26, 2026, with rakhis at Gaushala O.P. Thana, showing gratitude for their service and sacrifices. The event fostered a strong bond of respect and brotherhood, which heartfelt interactions reflecting appreciation for those who protect society daily.", 
+    },
+
+    {
+  title: "Rangotsav 2026",
+  image: "/assets/Gallery/rangotsav26.jpg",
+  location: "Hindu Mission Orphanage",
+  date: "22 Feb, 2026",
+  instaLink: "https://www.instagram.com/p/DVNJ50uExkB/?stkn=MWJraWxwbGM0ajZydw==",
+  breif:
+    "Team LiGHT Sindri organized Rangotsav 2026 on February 22, 2026, at Hindu Mission Orphanage to celebrate Holi with the children and spread the joy of colors, love, and togetherness. The celebration was filled with laughter, music, and vibrant colors as volunteers spent time with the children, shared sweets, played Holi, and created cherished memories together. The event reflected the true spirit of Holi by promoting happiness, compassion, unity, and inclusivity while bringing smiles to the faces of the children."
+},
 
   {
   title: "Career Guidance Session",
@@ -22,6 +44,18 @@ export const EventData = [
   breif:
      "LiGHT Sindri guided students at Upgraded High School, Amtal through career options, subject choices, and future opportunities, helping them gain clarity and confidence for their academic journey.",
 },
+
+
+{
+  title: "SAMADHAN 2025",
+  image: "/assets/Gallery/samadhan.jpg",
+  location: "IT Building(BIT Sindri)",
+  date: "30 Jan, 2025",
+  instaLink: "https://www.instagram.com/p/DPQiwIrk_5a/",
+  breif:
+     "SAMADHAN 2025 brought together young innovators at BIT Sindri, where teams presented impactful solutions to real-world challenges like road safety and skill gaps through critical thinking and creativity.",  
+},
+
 
 
   {
@@ -80,7 +114,7 @@ export const EventData = [
 
 
   {
-  title: "Rangotsav",
+  title: "Rangotsav ",
   image: "/assets/Gallery/rangotsav.jpg",
   location: "Hindu Mission Orphanage, Dhanbad",
   date: "10 Mar, 2025",
@@ -211,14 +245,41 @@ export const EventData = [
 ];
 export const events = [
 
-  {
-  title: "SAMADHAN 2025",
-  images: ["samadhan1", "samadhan2"],
-  brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",
+  
+  
+{
+  title: "Saksham: Awareness Session on PCOS/PCOD",
+  images: ["saksham1", "saksham2"],
+  brief: "Saksham: Awareness Session on PCOS/PCOD and Sanitary Pad Distribution",
   content: [
-    "SAMADHAN 2025, organized by LiGHT Sindri at the IT Building, BIT Sindri, was a celebration of innovation, critical thinking, and youth-driven solutions.",
-    "Participants presented creative and impactful ideas addressing real-world challenges such as road safety and skill gaps. Each team demonstrated strong problem-solving skills and a deep understanding of societal needs.",
-    "The event encouraged collaboration, confidence, and fresh perspectives, making it a truly enriching experience for everyone involved. SAMADHAN 2025 stood as a testament to the power of ideas in shaping a better future."
+    "LiGHT Sindri conducted “Saksham,” an awareness session on PCOS/PCOD at Proposed High School, Kushmatand, Dhanbad, on 25th September 2026, to promote awareness about women's health and well-being.",
+    "Students actively participated in discussions on PCOS/PCOD, its symptoms, common misconceptions, and the importance of menstrual health, personal hygiene, and timely medical consultation.",
+    "The interactive session encouraged students to prioritize their health, break the stigma surrounding menstrual health, and develop a better understanding of self-care and healthy practices."
+  ],
+},
+
+ {
+  title: "Rakshak Ko Rakhi",
+  images: ["rakshak-rakhi1", "rakshak-rakhi2"],
+  brief: "Rakshak Ko Rakhi: Celebrating the Spirit of Gratitude and Protection",
+  content: [
+    "LiGHT Sindri organized 'Rakshak Ko Rakhi' on 26th August 2026 to express gratitude and respect towards soldiers, police officers, and first responders for their courage, dedication, and selfless service.",
+    "Participants celebrated the spirit of Raksha Bandhan by tying rakhis to the protectors of society, sharing heartfelt messages, and acknowledging their invaluable contribution to public safety.",
+    "The event fostered a sense of patriotism, gratitude, and social responsibility among participants, strengthening the bond between the community and those who work tirelessly to protect and serve society."
+  
+  ],
+},
+
+{
+  title: "Rangotsav 2026",
+  images: ["rangotsav26-1", "rangotsav26-2"],
+  brief: "Rangotsav 2026: Spreading Joy, Colors, and Togetherness",
+  content: [
+    "LiGHT Sindri organized 'Rangotsav 2026' on 22nd February 2026 at Hindu Mission Orphanage to celebrate the festival of Holi with the children and spread the joy of colors, love, and togetherness.",
+
+    "The celebration was filled with laughter, music, and vibrant colors as volunteers spent time with the children, shared sweets, played Holi, and created beautiful memories together.",
+
+    "The event reflected the true spirit of Holi by promoting unity, happiness, compassion, and inclusivity, while bringing smiles to the faces of the children and creating a warm sense of community."
   ],
 },
 
@@ -234,6 +295,16 @@ export const events = [
   ],
 },
 
+{
+  title: "SAMADHAN 2025",
+  images: ["samadhan1", "samadhan2"],
+  brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",
+  content: [
+    "SAMADHAN 2025, organized by LiGHT Sindri at the IT Building, BIT Sindri, was a celebration of innovation, critical thinking, and youth-driven solutions.",
+    "Participants presented creative and impactful ideas addressing real-world challenges such as road safety and skill gaps. Each team demonstrated strong problem-solving skills and a deep understanding of societal needs.",
+    "The event encouraged collaboration, confidence, and fresh perspectives, making it a truly enriching experience for everyone involved. SAMADHAN 2025 stood as a testament to the power of ideas in shaping a better future."
+  ],
+},
 
   {
   title: "Blanket Distribution Drive 2.0",
