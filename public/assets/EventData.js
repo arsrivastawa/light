@@ -16,6 +16,17 @@ export const EventData = [
 
 
 {
+  title: "Saksham",
+  image: "/assets/Gallery/saksham.jpg",
+  location: "Proposed High School, Kushmatand, Dhanbad",
+  date: "25 Sep, 2026",
+  instaLink: "https://www.instagram.com/p/Ddv6zpqk7PM/?stkn=aDQ4dWRxNGE1Nnpj",
+  breif:
+    "Team LiGHT Sindri organized Saksham, an awareness session on PCOS/PCOD on September 25, 2026, at Proposed High School, Kushmatand, Dhanbad. The session focused on promoting awareness about menstrual health, PCOS/PCOD, and the importance of self-care among students. Through interactive discussions, students gained valuable insights into women's health, helping break misconceptions and encouraging them to prioritize their well-being.",
+},
+
+
+{
     title: "Rakshak ko Rakhi",
     image: "/assets/Gallery/rakshak-rakhi1.jpg",
     location: "Gaushala O.P. Thana, Sindri",
@@ -25,15 +36,6 @@ export const EventData = [
       "Team LiGHT Sindri celebrated Rakshak ko Rakhi, honored soldiers and police on August 26, 2026, with rakhis at Gaushala O.P. Thana, showing gratitude for their service and sacrifices. The event fostered a strong bond of respect and brotherhood, which heartfelt interactions reflecting appreciation for those who protect society daily.", 
     },
 
-    {
-  title: "Rangotsav 2026",
-  image: "/assets/Gallery/rangotsav26.jpg",
-  location: "Hindu Mission Orphanage",
-  date: "22 Feb, 2026",
-  instaLink: "https://www.instagram.com/p/DVNJ50uExkB/?stkn=MWJraWxwbGM0ajZydw==",
-  breif:
-    "Team LiGHT Sindri organized Rangotsav 2026 on February 22, 2026, at Hindu Mission Orphanage to celebrate Holi with the children and spread the joy of colors, love, and togetherness. The celebration was filled with laughter, music, and vibrant colors as volunteers spent time with the children, shared sweets, played Holi, and created cherished memories together. The event reflected the true spirit of Holi by promoting happiness, compassion, unity, and inclusivity while bringing smiles to the faces of the children."
-},
 
   {
   title: "Career Guidance Session",
@@ -270,18 +272,6 @@ export const events = [
   ],
 },
 
-{
-  title: "Rangotsav 2026",
-  images: ["rangotsav26-1", "rangotsav26-2"],
-  brief: "Rangotsav 2026: Spreading Joy, Colors, and Togetherness",
-  content: [
-    "LiGHT Sindri organized 'Rangotsav 2026' on 22nd February 2026 at Hindu Mission Orphanage to celebrate the festival of Holi with the children and spread the joy of colors, love, and togetherness.",
-
-    "The celebration was filled with laughter, music, and vibrant colors as volunteers spent time with the children, shared sweets, played Holi, and created beautiful memories together.",
-
-    "The event reflected the true spirit of Holi by promoting unity, happiness, compassion, and inclusivity, while bringing smiles to the faces of the children and creating a warm sense of community."
-  ],
-},
 
 
   {
