@@ -2,14 +2,16 @@ import { content } from "flowbite-react/tailwind";
 
 export const EventData = [
 
-  {
-  title: "SAMADHAN 2025",
-  image: "/assets/Gallery/samadhan.jpg",
-  location: "IT Building(BIT Sindri)",
-  date: "30 Jan, 2025",
-  instaLink: "https://www.instagram.com/p/DPQiwIrk_5a/",
+  
+
+{
+  title: "Saksham",
+  image: "/assets/Gallery/saksham1.jpg",
+  location: "Proposed High School, Kushmatand, Dhanbad",
+  date: "25 Sep, 2026",
+  instaLink: "https://www.instagram.com/p/Ddv6zpqk7PM/?stkn=aDQ4dWRxNGE1Nnpj",
   breif:
-     "SAMADHAN 2025 brought together young innovators at BIT Sindri, where teams presented impactful solutions to real-world challenges like road safety and skill gaps through critical thinking and creativity.",  
+    "Team LiGHT Sindri organized Saksham, an awareness session on PCOS/PCOD on September 25, 2026, at Proposed High School, Kushmatand, Dhanbad. The session focused on promoting awareness about menstrual health, PCOS/PCOD, and the importance of self-care among students. Through interactive discussions, students gained valuable insights into women's health, helping break misconceptions and encouraging them to prioritize their well-being.",
 },
 
 
@@ -44,6 +46,18 @@ export const EventData = [
   breif:
      "LiGHT Sindri guided students at Upgraded High School, Amtal through career options, subject choices, and future opportunities, helping them gain clarity and confidence for their academic journey.",
 },
+
+
+{
+  title: "SAMADHAN 2025",
+  image: "/assets/Gallery/samadhan.jpg",
+  location: "IT Building(BIT Sindri)",
+  date: "30 Jan, 2025",
+  instaLink: "https://www.instagram.com/p/DPQiwIrk_5a/",
+  breif:
+     "SAMADHAN 2025 brought together young innovators at BIT Sindri, where teams presented impactful solutions to real-world challenges like road safety and skill gaps through critical thinking and creativity.",  
+},
+
 
 
   {
@@ -102,7 +116,7 @@ export const EventData = [
 
 
   {
-  title: "Rangotsav",
+  title: "Rangotsav ",
   image: "/assets/Gallery/rangotsav.jpg",
   location: "Hindu Mission Orphanage, Dhanbad",
   date: "10 Mar, 2025",
