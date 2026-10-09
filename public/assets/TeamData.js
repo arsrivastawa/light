@@ -831,18 +831,6 @@ export const TeamData = [
     insta: "https://www.instagram.com/shubham_singh_rajput_51?igsh=b2Nsa2l0Z3pwbno0",
   },
   
-  {
-    name: "Neha Kumari",
-    ImgPath: "2k24/neha-kumari",
-    team: ["Design Team"],
-    branch: "Civil",
-    batch: 2024,
-    position: "Design Head",
-    email: "nkn281818@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/gautam-kumar-904864348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    insta: "https://www.instagram.com/gautam_3.3",
-  },
 
    {
     name: "Anjali Kumari",
@@ -869,18 +857,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   
-  {
-    name: "Rishav Agarwal",
-    ImgPath: "2k24/rishav-agarwal",
-    team: ["Design Team", "Sponsorship Team"],
-    branch: "Mechanical",
-    batch: 2024,
-    position: "Sponsorship Head",
-    email: "shubham.s.r.bit199@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/rishavagarwal091?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    insta: "https://www.instagram.com/rishav_agarwal.3958?igsh=MWNlOXYxZDJ4dnV2dg==",
-  },
+ 
  
   {
     name: "Sourabh Kumar",
@@ -934,31 +911,6 @@ export const TeamData = [
     insta: "https://www.instagram.com/shrey_30ya?utm_source=qr",
   },
 
-  
-   {
-    name: "Maitri",
-    ImgPath: "2k24/maitri",
-    team: ["Web D Team", "Media & Content Team"],
-    branch: "IT",
-    batch: 2024,
-    position: "Design Head",
-    email: "amjns308@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/maitri-89a17732a",
-    insta: "https://www.instagram.com/maitri__232?igsh=MWFxZWhud2NlZDcxZw==",
-  },
-
-   {
-    name: "Rashmi Roushan",
-    ImgPath: "2k24/rashmi-roushan",
-    team: ["Media & Content Team", "Sponsorship Team"],
-    branch: "Electrical",
-    batch: 2024,
-    position: "Alumini Relations and Outreach Head",
-    email: "Kashyaprashmi911@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  },
 
 ];
 
