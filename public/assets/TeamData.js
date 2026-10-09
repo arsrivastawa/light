@@ -762,10 +762,9 @@ export const TeamData = [
     position: "SSD , Alumini Relations and Outreach Head",
     email: "shafqat.meug24@bitsindri.ac.in",
     linkedIn:
-    "https://www.linkedin.com/in/ruby-sharma-6ab4b430b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      "https://www.linkedin.com/in/shafqat-anwar"
 ,
-    insta: 
-    "https://www.instagram.com/its_rubyy_07?igsh=YmExcGExNGwyc3M1",
+    insta: "https://www.instagram.com/shafqat.x?igsh=a2N6NmxhMnVhODA5",
   },
   
   {
@@ -804,19 +803,19 @@ export const TeamData = [
       "https://www.linkedin.com/in/kumari-muskan-6b3230334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/holistic__19?igsh=eTIzY252dmNzcTR5",
   },
-
- {
-    name: "Shafqat Anwar",
-    ImgPath: "2k24/shafqat-anwar",
-    team: ["Sponsorship Team", "SSD Team"],
-    branch: "Mechanical",
+   {
+    name: "Rupesh Mandal",
+    ImgPath: "2k24/rupesh-mandal",
+    team: ["Design Team", "Media & Content Team", "Sponsorship Team"],
+    branch: "Chemical",
     batch: 2024,
     position: "Design Head",
     email: "krrupesh867@gmail.com",
     linkedIn:
-      "https://www.linkedin.com/in/shafqat-anwar",
-    insta: "https://www.instagram.com/shafqat.x?igsh=a2N6NmxhMnVhODA5",
+      "https://www.linkedin.com/in/rupesh-mandal-99a87a2b8",
+    insta: "https://www.instagram.com/rupeshkr_82?igsh=MXA4ejl2NTBuNWd2Nw==",
   },
+
 
    {
     name: "Shubham Singh",
@@ -825,7 +824,7 @@ export const TeamData = [
     branch: "Mining",
     batch: 2024,
     position: "Sponsorship Head",
-    email: "anjalikumarisah13@gmail.com",
+    email: "shubham.s.r.bit199@gmail.com",
     linkedIn:
       "https://www.linkedin.com/in/shubham-singh-0aaa532a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/shubham_singh_rajput_51?igsh=b2Nsa2l0Z3pwbno0",
