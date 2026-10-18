@@ -3,6 +3,17 @@ import { content } from "flowbite-react/tailwind";
 export const EventData = [
 
   {
+  title: "UDAAN:Celebrating Every Child",
+  image: "/assets/Gallery/udaan2.jpg",
+  location: "Pehla Kadam School, Jagjeevan Nagar, Dhanbad",
+  date: "12 Oct, 2026",
+  instaLink: "https://www.instagram.com/p/DebfiKgk6ws/?exln=cTJhODM0NmR1MTd3 ",
+  breif:
+    "LiGHT Sindri celebrated childhood through UDAAN:Celebrating Every Child at Pehla Kadam School, Dhanbad. The event featured fun games, music, dance, and creative activities, promoting happiness, inclusivity, and joyful learning while ensuring every child felt valued and celebrated.",
+},
+
+
+  {
   title: "SAMADHAN 2025",
   image: "/assets/Gallery/samadhan.jpg",
   location: "IT Building(BIT Sindri)",
@@ -211,16 +222,19 @@ export const EventData = [
 ];
 export const events = [
 
+
   {
-  title: "SAMADHAN 2025",
-  images: ["samadhan1", "samadhan2"],
-  brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",
+  title: "UDAAN:Celebrating Every Child",
+  images: ["udaan1", "udaan5"],
+  brief: "UDAAN: Celebrating Every Child: A Day Full of Smiles and Joy",
   content: [
-    "SAMADHAN 2025, organized by LiGHT Sindri at the IT Building, BIT Sindri, was a celebration of innovation, critical thinking, and youth-driven solutions.",
-    "Participants presented creative and impactful ideas addressing real-world challenges such as road safety and skill gaps. Each team demonstrated strong problem-solving skills and a deep understanding of societal needs.",
-    "The event encouraged collaboration, confidence, and fresh perspectives, making it a truly enriching experience for everyone involved. SAMADHAN 2025 stood as a testament to the power of ideas in shaping a better future."
+    "LiGHT Sindri celebrated childhood through 'UDAAN:Celebrating Every Child' on 12th October 2026 at Pehla Kadam School, Dhanbad, creating a joyful space where every child felt special and included.",
+    "From exciting games and colour-matching challenges to music, dance, and thumb printing, the children enjoyed a day filled with laughter, creativity, and enthusiastic participation.",
+    "With the support of the school staff and Centre Coordinators, the event turned simple moments into beautiful memories, reaffirming LiGHT Sindri's commitment to spreading happiness, inclusion, and care among children."
   ],
 },
+
+ 
 
 
   {
@@ -234,6 +248,17 @@ export const events = [
   ],
 },
 
+
+ {
+  title: "SAMADHAN 2025",
+  images: ["samadhan1", "samadhan2"],
+  brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",
+  content: [
+    "SAMADHAN 2025, organized by LiGHT Sindri at the IT Building, BIT Sindri, was a celebration of innovation, critical thinking, and youth-driven solutions.",
+    "Participants presented creative and impactful ideas addressing real-world challenges such as road safety and skill gaps. Each team demonstrated strong problem-solving skills and a deep understanding of societal needs.",
+    "The event encouraged collaboration, confidence, and fresh perspectives, making it a truly enriching experience for everyone involved. SAMADHAN 2025 stood as a testament to the power of ideas in shaping a better future."
+  ],
+},
 
   {
   title: "Blanket Distribution Drive 2.0",
