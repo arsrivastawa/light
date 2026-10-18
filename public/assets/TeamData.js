@@ -688,33 +688,63 @@ export const TeamData = [
       "https://www.linkedin.com/in/kailash-kumar-goswami-912778336",
     insta: "https://www.instagram.com/kailash_goswamiii10?igsh=MWs0M25hMno3eXJ1ag==",
   },
+
   {
-    name: "Ashok Kumar Mahato",
-    ImgPath: "2k24/ashok-kumar-mahato",
-    team: ["Web D Team"," Media & Content Team"],
-    branch: "CSE(CS)",
+    name: "Kumari Muskan",
+    ImgPath: "2k24/muskan-kumari",
+    team: ["Media & Content Team", "SSD Team"],
+    branch: "Civil",
     batch: 2024,
-    position: "Web-D Head",
-    email: "ashok79911@gmail.com",
+    position: "SSD Head",
+    email: "muskan.sm3790@gmail.com",
     linkedIn:
-      "https://www.linkedin.com/in/ashok-kumar-mahato-96500432b/",
-    insta: "https://www.instagram.com/_.ash0k_?igsh=MW5iejhqczExc2h5NA==",
+      "https://www.linkedin.com/in/kumari-muskan-6b3230334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/holistic__19?igsh=eTIzY252dmNzcTR5",
   },
+  
    {
-    name: "Maitri",
-    ImgPath: "2k24/maitri",
-    team: ["Web D Team", "Media & Content Team"],
-    branch: "IT",
+    name: "Shafqat Anwar",
+    ImgPath: "2k24/shafqat-anwar",
+    team: ["Sponsorship Team", "SSD Team"],
+    branch: "Mechanical",
     batch: 2024,
-    position: "Web-D Head",
-    email: "singhmaitri233@gmail.com",
+    position: "SSD , Alumini Relations and Outreach Head",
+    email: "shafqat.meug24@bitsindri.ac.in",
     linkedIn:
-      "https://www.linkedin.com/in/maitri-89a17732a",
-    insta: "https://www.instagram.com/maitri__232?igsh=MWFxZWhud2NlZDcxZw==",
+      "https://www.linkedin.com/in/shafqat-anwar",
+    insta: "https://www.instagram.com/shafqat.x?igsh=a2N6NmxhMnVhODA5",
   },
 
   {
-    name: "Tannu Kumari",
+    name: "Shubham Singh",
+    ImgPath: "2k24/shubham-singh",
+    team: ["Sponsorship Team", "SSD Team"],
+    branch: "Mining",
+    batch: 2024,
+    position: "Sponsorship Head",
+    email: "shubham.s.r.bit199@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/shubham-singh-0aaa532a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/shubham_singh_rajput_51?igsh=b2Nsa2l0Z3pwbno0",
+  },
+
+   {
+    name: "Anjali Kumari",
+    ImgPath: "2k24/anjali-kumari",
+    team: ["Sponsorship Team"],
+    branch: "Mechanical",
+    batch: 2024,
+    position: "Sponsorship Head",
+    email: "anjalikumarisah13@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/anjali-kumari-26817632a",
+    insta: "https://www.instagram.com/un_jaliee/",
+  },
+
+  
+
+  {
+    name: "Tannu Mishra",
     ImgPath: "2k24/tannu-kumari",
     team: ["Web D Team","Media & Content Team"],
     branch: "Civil",
@@ -725,20 +755,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/tannu-kumari-mishra-327565310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/mishra870_",
   },
- 
-  
-  {
-    name: "Kajal Kumari",
-    ImgPath: "2k24/kajal-kumari",
-    team: ["Media & Content Team"],
-    branch: "Civil",
-    batch: 2024,
-    position: "Media & Content Head",
-    email: "k6404019@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/kajal-kumari-687a78322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    // insta: "#",
-  },
+
   {
     name: "Gautam Kumar",
     ImgPath: "2k24/gautam-kumar",
@@ -751,21 +768,19 @@ export const TeamData = [
       "https://www.linkedin.com/in/gautam-kumar-904864348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/gautam_3.3",
   },
-  
 
   {
-    name: "Shafqat Anwar",
-    ImgPath: "2k24/shafqat-anwar",
-    team: ["Sponsorship Team", "SSD Team"],
-    branch: "Mechanical",
+    name: "Rashmi Roushan",
+    ImgPath: "2k24/rashmi-roushan",
+    team: ["Media & Content Team", "Sponsorship Team"],
+    branch: "Electrical",
     batch: 2024,
-    position: "SSD , Alumini Relations and Outreach Head",
-    email: "shafqat.meug24@bitsindri.ac.in",
+    position: "Alumini Relations and Outreach Head",
+    email: "Kashyaprashmi911@gmail.com",
     linkedIn:
-      "https://www.linkedin.com/in/shafqat-anwar",
-    insta: "https://www.instagram.com/shafqat.x?igsh=a2N6NmxhMnVhODA5",
+      "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
-  
+ 
   {
     name: "Rishav Agarwal",
     ImgPath: "2k24/rishav-agarwal",
@@ -790,18 +805,7 @@ export const TeamData = [
       "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
     insta: "https://www.instagram.com/jal_zeera/",
   },
-  {
-    name: "Muskan Kumari",
-    ImgPath: "2k24/muskan-kumari",
-    team: ["Media & Content Team", "SSD Team"],
-    branch: "Civil",
-    batch: 2024,
-    position: "SSD Head",
-    email: "muskan.sm3790@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/kumari-muskan-6b3230334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    insta: "https://www.instagram.com/holistic__19?igsh=eTIzY252dmNzcTR5",
-  },
+  
   {
     name: "Rupesh Mandal",
     ImgPath: "2k24/rupesh-mandal",
@@ -814,18 +818,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/rupesh-mandal-99a87a2b8",
     insta: "https://www.instagram.com/rupeshkr_82?igsh=MXA4ejl2NTBuNWd2Nw==",
   },
-  {
-    name: "Anjali Kumari",
-    ImgPath: "2k24/anjali-kumari",
-    team: ["Sponsorship Team"],
-    branch: "Mechanical",
-    batch: 2024,
-    position: "Sponsorship Head",
-    email: "anjalikumarisah13@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/anjali-kumari-26817632a",
-    insta: "https://www.instagram.com/un_jaliee/",
-  },
+ 
   
   {
     name: "Neha Kumari",
@@ -839,20 +832,20 @@ export const TeamData = [
       "https://www.linkedin.com/in/neha-kumari-130ab7358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     // insta: "#",
   },
-  
-  {
-    name: "Shubham Singh",
-    ImgPath: "2k24/shubham-singh",
-    team: ["Sponsorship Team", "SSD Team"],
-    branch: "Mining",
+
+   {
+    name: "Sourabh Kumar",
+    ImgPath: "2k24/sourabh-kumar",
+    team:[""],
+    branch: "Mechanical",
     batch: 2024,
-    position: "Sponsorship Head",
-    email: "shubham.s.r.bit199@gmail.com",
+    position: "Design Head",
+    email: "amjns308@gmail.com",
     linkedIn:
-      "https://www.linkedin.com/in/shubham-singh-0aaa532a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    insta: "https://www.instagram.com/shubham_singh_rajput_51?igsh=b2Nsa2l0Z3pwbno0",
+      "https://www.linkedin.com/in/Sourabh-kumar-Neilkamal714/",
+    insta: "https://www.instagram.com/sourabh_amjns?igsh=MTN4cDk3dm41eDh0OA==",
   },
- 
+  
   {
     name: "sanjay Ekka",
     ImgPath: "2k24/sanjay-ekka",
@@ -864,6 +857,19 @@ export const TeamData = [
     linkedIn:
       "https://www.linkedin.com/in/sanjay-ekka-b1613232a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     insta: "https://www.instagram.com/_.sanjay_.01?igsh=aXNwNnozZXdvd3Ex&utm_source=qr",
+  },
+
+  {
+    name: "Kajal Kumari",
+    ImgPath: "2k24/kajal-kumari",
+    team: ["Media & Content Team"],
+    branch: "Civil",
+    batch: 2024,
+    position: "Media & Content Head",
+    email: "k6404019@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/kajal-kumari-687a78322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    // insta: "#",
   },
  
   {
@@ -878,29 +884,33 @@ export const TeamData = [
       "https://www.linkedin.com/in/shreya-tirkey-58013632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/shrey_30ya?utm_source=qr",
   },
+ 
+
+  
   {
-    name: "Sourabh Kumar",
-    ImgPath: "2k24/sourabh-kumar",
-    team:[""],
-    branch: "Mechanical",
+    name: "Maitri",
+    ImgPath: "2k24/maitri",
+    team: ["Web D Team", "Media & Content Team"],
+    branch: "IT",
     batch: 2024,
-    position: "Design Head",
-    email: "amjns308@gmail.com",
+    position: "Web-D Head",
+    email: "singhmaitri233@gmail.com",
     linkedIn:
-      "https://www.linkedin.com/in/Sourabh-kumar-Neilkamal714/",
-    insta: "https://www.instagram.com/sourabh_amjns?igsh=MTN4cDk3dm41eDh0OA==",
+      "https://www.linkedin.com/in/maitri-89a17732a",
+    insta: "https://www.instagram.com/maitri__232?igsh=MWFxZWhud2NlZDcxZw==",
   },
 
-   {
-    name: "Rashmi Roushan",
-    ImgPath: "2k24/rashmi-roushan",
-    team: ["Media & Content Team", "Sponsorship Team"],
-    branch: "Electrical",
+  {
+    name: "Ashok Kumar Mahato",
+    ImgPath: "2k24/ashok-kumar-mahato",
+    team: ["Web D Team"," Media & Content Team"],
+    branch: "CSE(CS)",
     batch: 2024,
-    position: "Alumini Relations and Outreach Head",
-    email: "Kashyaprashmi911@gmail.com",
+    position: "Web-D Head",
+    email: "ashok79911@gmail.com",
     linkedIn:
-      "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/ashok-kumar-mahato-96500432b/",
+    insta: "https://www.instagram.com/_.ash0k_?igsh=MW5iejhqczExc2h5NA==",
   },
 
 ];

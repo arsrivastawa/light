@@ -13,6 +13,18 @@ export const EventData = [
 },
 
 
+{
+  title: "RANGOTSAV 2026",
+  image: "/assets/Gallery/rangotsav26_1.jpg",
+  location: "Hindu Mission Orphanage",
+  date: "22 Feb, 2026",
+  instaLink: "https://www.instagram.com/p/DVNJ50uExkB/?xtok=MWJraWxwbGM0ajZydw==",
+  breif:
+    "LiGHT Sindri celebrated Rangotsav with the children of Hindu Mission Orphanage, spreading joy, colours, and togetherness through the festival of Holi. The event featured fun activities, music, and the sharing of sweets, creating beautiful memories and moments of happiness. The celebration reflected the true spirit of Holi—unity, compassion, and spreading smiles.",
+},
+
+
+
   {
   title: "SAMADHAN 2025",
   image: "/assets/Gallery/samadhan.jpg",
@@ -234,6 +246,18 @@ export const events = [
   ],
 },
 
+
+{
+  title: "RANGOTSAV 2026",
+  images: ["rangotsav263", "rangotsav262"],
+  
+  brief: "Rangotsav 2026: Spreading Colours, Joy, and Smiles",
+  content: [
+    "LiGHT Sindri celebrated Rangotsav 2026 on 22nd February 2026 at Hindu Mission Orphanage, embracing the spirit of Holi by spreading happiness, love, and togetherness among the children.",
+    "The celebration was filled with colourful moments, music, fun, and laughter. Volunteers played Holi with the children, shared sweets, and created joyful experiences that made the occasion memorable for everyone.",
+    "Through this heartwarming initiative, LiGHT Sindri strengthened the spirit of community, compassion, and inclusion, reflecting the true essence of Holi—unity, happiness, and spreading smiles."
+  ],
+},
  
 
 
