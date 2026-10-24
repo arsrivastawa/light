@@ -15,7 +15,7 @@ export const EventData = [
 
 {
   title: "RANGOTSAV 2026",
-  image: "/assets/Gallery/rangotsav26_1.jpg",
+  image: "/assets/Gallery/rangotsav261.jpg",
   location: "Hindu Mission Orphanage",
   date: "22 Feb, 2026",
   instaLink: "https://www.instagram.com/p/DVNJ50uExkB/?xtok=MWJraWxwbGM0ajZydw==",
