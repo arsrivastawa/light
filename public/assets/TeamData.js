@@ -779,6 +779,7 @@ export const TeamData = [
     email: "Kashyaprashmi911@gmail.com",
     linkedIn:
       "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/shafqat.x?igsh=a2N6NmxhMnVhODA5",
   },
  
   {
@@ -789,10 +790,10 @@ export const TeamData = [
     batch: 2024,
     position: "Design Head",
     email: "rishavagarwal091@gmail.com",
-    linkedIn:
-      "https://www.linkedin.com/in/rishavagarwal091?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedIn: "https://www.linkedin.com/in/rishavagarwal091?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/rishav_agarwal.3958?igsh=MWNlOXYxZDJ4dnV2dg==",
   },
+
   {
     name: "Pramod Marandi",
     ImgPath: "2k24/pramod-marandi",
@@ -806,7 +807,9 @@ export const TeamData = [
     insta: "https://www.instagram.com/jal_zeera/",
   },
   
-  {
+  
+
+   {
     name: "Rupesh Mandal",
     ImgPath: "2k24/rupesh-mandal",
     team: ["Design Team", "Media & Content Team", "Sponsorship Team"],
@@ -818,8 +821,50 @@ export const TeamData = [
       "https://www.linkedin.com/in/rupesh-mandal-99a87a2b8",
     insta: "https://www.instagram.com/rupeshkr_82?igsh=MXA4ejl2NTBuNWd2Nw==",
   },
- 
+
+
+
+   {
+    name: "Shubham Singh",
+    ImgPath: "2k24/shubham-singh",
+    team: ["Sponsorship Team", "SSD Team"],
+    branch: "Mining",
+    batch: 2024,
+    position: "Sponsorship Head",
+    email: "shubham.s.r.bit199@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/shubham-singh-0aaa532a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    insta: "https://www.instagram.com/shubham_singh_rajput_51?igsh=b2Nsa2l0Z3pwbno0",
+  },
   
+
+   {
+    name: "Rashmi Roushan",
+    ImgPath: "2k24/rashmi-roushan",
+    team: ["Media & Content Team", "Sponsorship Team"],
+    branch: "Electrical",
+    batch: 2024,
+    position: "Alumini Relations and Outreach Head",
+    email: "Kashyaprashmi911@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  
+ 
+ 
+  {
+    name: "Sourabh Kumar",
+    ImgPath: "2k24/sourabh-kumar",
+    team:[""],
+    branch: "Mechanical",
+    batch: 2024,
+    position: "Design Head",
+    email: "amjns308@gmail.com",
+    linkedIn:
+      "https://www.linkedin.com/in/Sourabh-kumar-Neilkamal714/",
+    insta: "https://www.instagram.com/sourabh_amjns?igsh=MTN4cDk3dm41eDh0OA==",
+  },
+
   {
     name: "Neha Kumari",
     ImgPath: "2k24/neha-kumari",
@@ -913,7 +958,10 @@ export const TeamData = [
     insta: "https://www.instagram.com/_.ash0k_?igsh=MW5iejhqczExc2h5NA==",
   },
 
+
 ];
+
+
 
 
 
