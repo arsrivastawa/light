@@ -855,9 +855,7 @@ export const TeamData = [
     linkedIn:
       "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
-  
- 
- 
+
   {
     name: "Sourabh Kumar",
     ImgPath: "2k24/sourabh-kumar",
@@ -909,7 +907,6 @@ export const TeamData = [
       "https://www.linkedin.com/in/shreya-tirkey-58013632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/shrey_30ya?utm_source=qr",
   },
-
 
 ];
 
