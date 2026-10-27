@@ -662,6 +662,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/lucky-kumar-015687335",
     insta: "https://www.instagram.com/kr_luckyy?igsh=MXhxbnY0bzk4MDIycw==",
   },
+  
    {
     name: "Ruby Sharma",
     ImgPath: "2k24/ruby-sharma",
@@ -671,11 +672,11 @@ export const TeamData = [
     position: "Center Coordinator",
     email: "sruby5702@gmail.com",
     linkedIn:
-    "https://www.linkedin.com/in/ruby-sharma-6ab4b430b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-,
+    "https://www.linkedin.com/in/ruby-sharma-6ab4b430b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: 
     "https://www.instagram.com/its_rubyy_07?igsh=YmExcGExNGwyc3M1",
   },
+  
   {
     name: "Kailash Goswami",
     ImgPath: "2k24/kailash-goswami",
@@ -688,6 +689,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/kailash-kumar-goswami-912778336",
     insta: "https://www.instagram.com/kailash_goswamiii10?igsh=MWs0M25hMno3eXJ1ag==",
   },
+  
   {
     name: "Ashok Kumar Mahato",
     ImgPath: "2k24/ashok-kumar-mahato",
@@ -700,6 +702,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/ashok-kumar-mahato-96500432b/",
     insta: "https://www.instagram.com/_.ash0k_?igsh=MW5iejhqczExc2h5NA==",
   },
+  
    {
     name: "Maitri",
     ImgPath: "2k24/maitri",
@@ -725,7 +728,6 @@ export const TeamData = [
       "https://www.linkedin.com/in/tannu-kumari-mishra-327565310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     insta: "https://www.instagram.com/mishra870_",
   },
- 
   
   {
     name: "Kajal Kumari",
@@ -855,6 +857,7 @@ export const TeamData = [
     linkedIn:
       "https://www.linkedin.com/in/rashmi-roushan-3b41b632a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
+
   {
     name: "Sourabh Kumar",
     ImgPath: "2k24/sourabh-kumar",
@@ -867,6 +870,7 @@ export const TeamData = [
       "https://www.linkedin.com/in/Sourabh-kumar-Neilkamal714/",
     insta: "https://www.instagram.com/sourabh_amjns?igsh=MTN4cDk3dm41eDh0OA==",
   },
+  
   {
     name: "Neha Kumari",
     ImgPath: "2k24/neha-kumari",
