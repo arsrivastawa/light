@@ -3,6 +3,29 @@ import { content } from "flowbite-react/tailwind";
 export const EventData = [
 
   {
+  title: "UDAAN:Celebrating Every Child",
+  image: "/assets/Gallery/udaan2.jpg",
+  location: "Pehla Kadam School, Jagjeevan Nagar, Dhanbad",
+  date: "12 Oct, 2026",
+  instaLink: "https://www.instagram.com/p/DebfiKgk6ws/?exln=cTJhODM0NmR1MTd3 ",
+  breif:
+    "LiGHT Sindri celebrated childhood through UDAAN:Celebrating Every Child at Pehla Kadam School, Dhanbad. The event featured fun games, music, dance, and creative activities, promoting happiness, inclusivity, and joyful learning while ensuring every child felt valued and celebrated.",
+},
+
+
+{
+  title: "RANGOTSAV 2026",
+  image: "/assets/Gallery/rangotsav261.jpg",
+  location: "Hindu Mission Orphanage",
+  date: "22 Feb, 2026",
+  instaLink: "https://www.instagram.com/p/DVNJ50uExkB/?xtok=MWJraWxwbGM0ajZydw==",
+  breif:
+    "LiGHT Sindri celebrated Rangotsav with the children of Hindu Mission Orphanage, spreading joy, colours, and togetherness through the festival of Holi. The event featured fun activities, music, and the sharing of sweets, creating beautiful memories and moments of happiness. The celebration reflected the true spirit of Holi—unity, compassion, and spreading smiles.",
+},
+
+
+
+  {
   title: "SAMADHAN 2025",
   image: "/assets/Gallery/samadhan.jpg",
   location: "IT Building(BIT Sindri)",
@@ -233,6 +256,18 @@ export const EventData = [
 ];
 export const events = [
 
+
+  {
+  title: "UDAAN:Celebrating Every Child",
+  images: ["udaan1", "udaan5"],
+  brief: "UDAAN: Celebrating Every Child: A Day Full of Smiles and Joy",
+  content: [
+    "LiGHT Sindri celebrated childhood through 'UDAAN:Celebrating Every Child' on 12th October 2026 at Pehla Kadam School, Dhanbad, creating a joyful space where every child felt special and included.",
+    "From exciting games and colour-matching challenges to music, dance, and thumb printing, the children enjoyed a day filled with laughter, creativity, and enthusiastic participation.",
+    "With the support of the school staff and Centre Coordinators, the event turned simple moments into beautiful memories, reaffirming LiGHT Sindri's commitment to spreading happiness, inclusion, and care among children."
+    ],
+},
+
   
   
 {
@@ -260,6 +295,20 @@ export const events = [
 
 
 
+{
+  title: "RANGOTSAV 2026",
+  images: ["rangotsav263", "rangotsav262"],
+  
+  brief: "Rangotsav 2026: Spreading Colours, Joy, and Smiles",
+  content: [
+    "LiGHT Sindri celebrated Rangotsav 2026 on 22nd February 2026 at Hindu Mission Orphanage, embracing the spirit of Holi by spreading happiness, love, and togetherness among the children.",
+    "The celebration was filled with colourful moments, music, fun, and laughter. Volunteers played Holi with the children, shared sweets, and created joyful experiences that made the occasion memorable for everyone.",
+    "Through this heartwarming initiative, LiGHT Sindri strengthened the spirit of community, compassion, and inclusion, reflecting the true essence of Holi—unity, happiness, and spreading smiles."
+  ],
+},
+ 
+
+
   {
   title: "Career Guidance Session",
   images: ["career-guidance1", "career-guidance2"],
@@ -272,6 +321,17 @@ export const events = [
 },
 
 {
+  title: "SAMADHAN 2025",
+  images: ["samadhan1", "samadhan2"],
+  brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",
+  content: [
+    "SAMADHAN 2025, organized by LiGHT Sindri at the IT Building, BIT Sindri, was a celebration of innovation, critical thinking, and youth-driven solutions.",
+    "Participants presented creative and impactful ideas addressing real-world challenges such as road safety and skill gaps. Each team demonstrated strong problem-solving skills and a deep understanding of societal needs.",
+    "The event encouraged collaboration, confidence, and fresh perspectives, making it a truly enriching experience for everyone involved. SAMADHAN 2025 stood as a testament to the power of ideas in shaping a better future."
+  ],
+},
+
+ {
   title: "SAMADHAN 2025",
   images: ["samadhan1", "samadhan2"],
   brief: "SAMADHAN 2025: A Platform for Innovation and Problem Solving",

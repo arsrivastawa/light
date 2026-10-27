@@ -26,6 +26,40 @@ function GallerySection() {
 }
 
 const data = [
+
+
+  {
+  hyperlink: "https://www.instagram.com/p/DebfiKgk6ws/?exln=cTJhODM0NmR1MTd3",
+  title: "UDAAN",
+  images: [
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    { link: "udaan", alt: "udaan" },
+    
+  ],
+},
+
+{
+  hyperlink: "https://www.instagram.com/p/DVNJ50uExkB/?xtok=MWJraWxwbGM0ajZydw==",
+  title: "RANGOTSAV 2026",
+  images: [
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    { link: "rangotsav26", alt: "rangotsav26" },
+    
+  ],
+},
+
    {
   hyperlink: "https://www.instagram.com/p/DPQiwIrk_5a/",
   title: "SAMADHAN 2025",
